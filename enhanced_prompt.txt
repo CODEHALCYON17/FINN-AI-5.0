@@ -1,0 +1,2499 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello, anyone here?",
+                "Is someone there",
+                "Good day",
+                "How are you",
+                "Hai",
+                "How's it going",
+                "Hey",
+                "Hello",
+                "Is there anyone",
+                "Good evening",
+                "day Good",
+                "Good afternoon",
+                "Good morning",
+                "Greetings",
+                "Hi",
+                "Is anyone there",
+                "How have you been",
+                "What's up",
+                "Anyone around"
+            ],
+            "responses": [
+                "Hey",
+                "Hi there, how can I help",
+                "Greetings",
+                "Hello, Thanks for visiting",
+                "Hi there, what can I do for you?",
+                "I there, how help can Hi",
+                "Hello",
+                "for Thanks visiting Hello,",
+                "Hi",
+                "do you? I can Hi what there, for"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "See you later",
+                "See you soon",
+                "See you",
+                "Talk to you later",
+                "Farewell",
+                "Catch you later",
+                "Goodbye",
+                "Bye",
+                "you See later",
+                "Later"
+            ],
+            "responses": [
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "visiting you later, for thanks See",
+                "Have nice a day",
+                "See you later, thanks for visiting",
+                "Come back again Bye! soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Appreciate it",
+                "Much appreciated",
+                "Thank you very much",
+                "Thanks a lot"
+            ],
+            "responses": [
+                "Any time!",
+                "to help! Happy",
+                "Happy to help!"
+            ]
+        },
+        {
+            "tag": "chair",
+            "patterns": [
+                "the fisat know now? you who chair right the of is SB IEEE Do",
+                "of fisat is the IEEE SB? Who chair",
+                "Can you tell me who holds the position of chair at the IEEE fisat SB?",
+                "the fisat tell holds position of IEEE at SB? who you chair Can the me",
+                "Who is fisat the of Student the IEEE Branch? chairperson",
+                "Who is leading the IEEE fisat Student Branch as chair?",
+                "Who is the chair of IEEE fisat SB?",
+                "Who is the chairperson of the IEEE fisat Student Branch?",
+                "Student chair? the is Branch IEEE Who as leading fisat",
+                "fisat SB? chair present is Who IEEE the the of",
+                "Who is the present chair of the IEEE fisat SB?",
+                "Do you know who the chair of the IEEE fisat SB is right now?"
+            ],
+            "responses": [
+                "Leading the IEEE fisat Student Branch as chair is Bhavana R Nair.",
+                "the Bhavana chair Branch fisat Leading R Student as is IEEE Nair.",
+                "The current chairperson of the IEEE fisat Student Branch is Bhavana R Nair.",
+                "Bhavana R Nair is the present chair of the IEEE fisat SB.",
+                "Nair. fisat Student the Bhavana R The current of IEEE Branch is chairperson",
+                "The chair of the IEEE fisat SB right now is Bhavana R Nair.",
+                "present the the fisat of is R Bhavana SB. Nair IEEE chair",
+                "Bhavana R Nair holds the position of chair at the IEEE fisat SB.",
+                "SB. the Bhavana at holds Nair position of the IEEE chair R fisat",
+                "of is right IEEE the fisat The Nair. now Bhavana R chair SB"
+            ]
+        },
+        {
+            "tag": "counsellor",
+            "patterns": [
+                "Who is leading the IEEE fisat Student Branch as Branch counsellor?",
+                "IEEE the who counsellor Can tell of me you fisat at Branch SB? holds the position",
+                "is know right you the SB fisat counsellor IEEE Branch Do the of now? who",
+                "Who is the present Branch counsellor of the IEEE fisat SB?",
+                "Who is the current Branch counsellor of the IEEE fisat Student Branch?",
+                "as IEEE Student Who Branch fisat leading Branch the counsellor? is",
+                "IEEE of counsellor the fisat SB? is Branch current Who",
+                "SB? is the Branch Who IEEE the fisat present of counsellor",
+                "Who is the current Branch counsellor of IEEE fisat SB?",
+                "current Student counsellor fisat Who the of Branch is Branch? the IEEE",
+                "Can you tell me who holds the position of Branch counsellor at the IEEE fisat SB?",
+                "Do you know who the Branch counsellor of the IEEE fisat SB is right now?"
+            ],
+            "responses": [
+                "now Branch of The SB counsellor is Jeemon. IEEE K the fisat Basil right",
+                "fisat Basil Branch K IEEE Branch of the is Student current Jeemon. counsellor The",
+                "holds Branch Jeemon Basil at counsellor the IEEE fisat the of SB. position K",
+                "Leading the IEEE fisat Student Branch as Branch counsellor is Basil K Jeemon.",
+                "Basil K Jeemon holds the position of Branch counsellor at the IEEE fisat SB.",
+                "Basil K Jeemon is the present Branch counsellor of the IEEE fisat SB.",
+                "Branch Jeemon present the K counsellor is of IEEE fisat Basil SB. the",
+                "fisat as Branch Branch Leading is Student the IEEE K Basil counsellor Jeemon.",
+                "The Branch counsellor of the IEEE fisat SB right now is Basil K Jeemon.",
+                "The current Branch counsellor of the IEEE fisat Student Branch is Basil K Jeemon."
+            ]
+        },
+        {
+            "tag": "ieeefisatsb",
+            "patterns": [
+                "fisat did Which created? SB year IEEE get",
+                "IEEE created? SB When fisat was",
+                "Which year did IEEE fisat SB get created?",
+                "Tell me about IEEE fisat SB",
+                "When was IEEE fisat SB created?",
+                "fisat SB Tell IEEE about me"
+            ],
+            "responses": [
+                "The was established 2003. fisat IEEE SB in",
+                "It was 21 years back, in the year 2003.",
+                "The IEEE fisat SB was established in 2003.",
+                "years back, 2003. the in was year 21 It"
+            ]
+        },
+        {
+            "tag": "motto",
+            "patterns": [
+                "is slogan fisat IEEE the of What SB?",
+                "What follow? does fisat IEEE motto SB",
+                "Could you let me know the motto of IEEE fisat SB?",
+                "What phrase does IEEE fisat SB use as its motto?",
+                "What is the mission statement of IEEE fisat SB?",
+                "is the SB? IEEE of What motto fisat",
+                "What is the motto of IEEE fisat SB?",
+                "is statement mission of SB? the IEEE fisat What",
+                "What is the tagline of IEEE fisat SB?",
+                "motto fisat SB? IEEE me Can you the tell of",
+                "What is the official motto of IEEE fisat SB?",
+                "Can you tell me the motto of IEEE fisat SB?",
+                "What is the slogan of IEEE fisat SB?",
+                "What is the guiding principle of IEEE fisat SB?",
+                "its phrase What use fisat as IEEE does SB motto?",
+                "guiding SB? fisat the of IEEE principle What is",
+                "What motto does IEEE fisat SB follow?",
+                "What SB? motto of is IEEE the fisat official",
+                "What of tagline IEEE fisat is the SB?",
+                "used IEEE motto in fisat What of the are SB? words",
+                "the you motto Could me of know SB? fisat let IEEE",
+                "What words are used in the motto of IEEE fisat SB?"
+            ],
+            "responses": [
+                "The motto of IEEE fisat SB is Integrating Innovations.",
+                "Innovations. motto of is The SB Integrating IEEE fisat"
+            ]
+        },
+        {
+            "tag": "initiator",
+            "patterns": [
+                "driving fisat Who IEEE force behind SB? creation the was the of",
+                "Who was instrumental in starting IEEE fisat SB?",
+                "Who was the driving force behind the creation of IEEE fisat SB?",
+                "Who was the founder of IEEE fisat SB?",
+                "initiative IEEE fisat form the SB? Who to took",
+                "Who founded IEEE fisat SB?",
+                "SB? fisat Who IEEE started",
+                "Who was the initiator of IEEE fisat SB?",
+                "in IEEE key SB? played a fisat of formation role the Who",
+                "SB? fisat Who IEEE founded",
+                "Who IEEE was instrumental SB? starting fisat in",
+                "Who played a key role in the formation of IEEE fisat SB?",
+                "Who was responsible for starting IEEE fisat SB?",
+                "the SB? Who fisat of IEEE initiator was",
+                "the initiated establishment Who SB? fisat IEEE of",
+                "starting for IEEE responsible fisat Who SB? was",
+                "Who took the initiative to form IEEE fisat SB?",
+                "Who started IEEE fisat SB?",
+                "Who initiated the formation of IEEE fisat SB?",
+                "Who initiated the establishment of IEEE fisat SB?",
+                "was fisat Who IEEE of the SB? founder",
+                "the initiated IEEE Who of formation fisat SB?"
+            ],
+            "responses": [
+                "Gopakumar, IEEE Shri the Students fisat initiated Activities and SB. formation MEMBER, Cherian, S Vargheese of GOLD Shri Chairman the IEEE",
+                "Shri S Gopakumar, the Students Activities Chairman and Shri Vargheese Cherian, IEEE GOLD MEMBER, initiated the formation of IEEE fisat SB."
+            ]
+        },
+        {
+            "tag": "events",
+            "patterns": [
+                "What are the different events held by IEEE fisat SB?",
+                "What are the kinds of events happening at IEEE fisat SB?",
+                "Can you describe the events hosted by IEEE fisat SB?",
+                "What types of programs and events are there at IEEE fisat SB?",
+                "of IEEE events kinds does conduct? SB What fisat",
+                "of IEEE by are types organized SB? events What fisat",
+                "of hold? SB What activities fisat kinds does IEEE",
+                "What kinds of activities does IEEE fisat SB hold?",
+                "What types of events are organized by IEEE fisat SB?",
+                "What events are currently taking place at IEEE fisat SB?",
+                "What kinds of events does IEEE fisat SB conduct?",
+                "happening SB? are at IEEE of kinds What the fisat events",
+                "are events by IEEE held the SB? fisat different What",
+                "What kinds of functions and activities are organized by IEEE fisat SB?",
+                "you Can describe the fisat IEEE events by hosted SB?",
+                "fisat of programs IEEE and there at SB? types are events What",
+                "events fisat IEEE currently are place What SB? at taking",
+                "SB? activities What and functions are IEEE organized by of kinds fisat"
+            ],
+            "responses": [
+                "IEEE fisat SB organizes various events such as Tech talks, Management Sessions, Workshops, Seminars, and more.",
+                "Management organizes Tech various SB Seminars, Sessions, IEEE talks, and events more. as such Workshops, fisat"
+            ]
+        },
+        {
+            "tag": "societies",
+            "patterns": [
+                "active societies SB? IEEE in Current fisat",
+                "What IEEE societies are presently operating at fisat SB?",
+                "Can you tell me about the IEEE societies that are active at fisat SB right now?",
+                "Current active societies in IEEE fisat SB?",
+                "Which societies within IEEE are active at fisat SB at the moment?",
+                "the at fisat are societies active IEEE What SB?",
+                "Which IEEE societies are currently active at fisat SB?",
+                "Which IEEE societies have ongoing activities at fisat SB?",
+                "are operating SB? societies presently at IEEE fisat What",
+                "What are the currently active societies in the IEEE branch at fisat SB?",
+                "at societies IEEE Which ongoing fisat activities SB? have",
+                "active currently the in branch at fisat IEEE the What societies are SB?",
+                "SB? societies are fisat Which active at IEEE currently",
+                "current societies IEEE list the at SB? Could fisat you active",
+                "tell societies active that IEEE about at Can me now? right SB are you fisat the",
+                "IEEE within SB are at fisat moment? societies Which the active at",
+                "What are the active IEEE societies at fisat SB?",
+                "Could you list the current active IEEE societies at fisat SB?"
+            ],
+            "responses": [
+                "the Automation Society. are and And Society, Signal The Communication Society, active Engineering, societies fisat SB Women Society, IEEE in and Power Society, Energy Robotics Processing current In Computer",
+                "The current active societies in IEEE fisat SB are the Robotics And Automation Society, Communication Society, Signal Processing Society, Power and Energy Society, Women In Engineering, and Computer Society."
+            ]
+        },
+        {
+            "tag": "ieee_description",
+            "patterns": [
+                "is what IEEE What and it do? does",
+                "What is IEEE?",
+                "What the purpose IEEE? of is",
+                "What is the purpose of IEEE?",
+                "the is IEEE? of What mission",
+                "Can you IEEE? me tell about",
+                "What is the IEEE organization?",
+                "What does the IEEE do?",
+                "IEEE? How would you describe",
+                "Can you explain what IEEE is?",
+                "What is IEEE and what does it do?",
+                "explain what IEEE Can you is?",
+                "is IEEE? What",
+                "do? IEEE does the What",
+                "Can you tell me about IEEE?",
+                "What role does IEEE play in technology and engineering?",
+                "What is the mission of IEEE?",
+                "How would you describe IEEE?",
+                "in play engineering? and role IEEE technology does What",
+                "is IEEE organization? What the"
+            ],
+            "responses": [
+                "IEEE stands for Institute of Electrical and Electronics Engineers. It is the worlds largest technical professional organization dedicated to advancing technology for the benefit of humanity.",
+                "Electrical It for of IEEE the advancing worlds Institute Engineers. professional technology benefit of for to the largest and organization humanity. stands is Electronics dedicated technical"
+            ]
+        },
+        {
+            "tag": "fisat",
+            "patterns": [
+                "about help? to I\u2019d fisat. more you Can like know",
+                "provide about Could fisat? details you",
+                "do for and they does do? What stand what fisat",
+                "Could you provide details about fisat?",
+                "fisat? give Could information some on me you",
+                "the history of mission and What's fisat?",
+                "is What all about? fisat",
+                "What is fisat all about?",
+                "What can you tell me about the Federal Institute of Science And Technology?",
+                "What's the history and mission of fisat?",
+                "What does fisat stand for and what do they do?",
+                "me And Technology? Federal you about can Science What the of tell Institute",
+                "Could you give me some information on fisat?",
+                "I\u2019d like to know more about fisat. Can you help?"
+            ],
+            "responses": [
+                "promoted fisat (fisat) become 2002, Educational Association to Federal a the aims motto of Society Science Centre engineering a education on Bank in Federal is (FBOAES). in college the by self-financing Established private established Focus and Excellence. with Institute of professional Technology Officers Excellence The and",
+                "The Federal Institute of Science and Technology (fisat) is a self-financing private engineering college established and promoted by the Federal Bank Officers Association Educational Society (FBOAES). Established in 2002, fisat aims to become a Centre of Excellence in professional education with the motto Focus on Excellence."
+            ]
+        },
+        {
+            "tag": "principal",
+            "patterns": [
+                "Who is the person acting as Principal at fisat?",
+                "Can you tell me about the Principal of fisat?",
+                "Who is the head of fisat?",
+                "of current the is Principal Who fisat?",
+                "is as at Principal fisat? charge in Who",
+                "the Who of is fisat? head",
+                "Who is in charge as Principal at fisat?",
+                "holds Principal fisat? the position of Who at",
+                "fisat? Principal at person is as the acting Who",
+                "I\u2019d like to know about the Principal of fisat.",
+                "Who is the Principal at fisat?",
+                "Who is Principal",
+                "as Principal? leading fisat Who is",
+                "fisat? Principal tell about the Can you of me",
+                "fisat. I\u2019d Principal the to know of like about",
+                "Who holds the position of Principal at fisat?",
+                "the Principal at Who is fisat?",
+                "Who is leading fisat as Principal?",
+                "Could you provide information on fisat's Principal?",
+                "Could Principal? you information provide on fisat's",
+                "Who is the current Principal of fisat?"
+            ],
+            "responses": [
+                "The current Principal of fisat is Professor (Dr) Jacob Thomas V. He joined fisat on 01-01-2024 and holds a graduation in Electronics Engineering from the National Institute of Technology, Surat, and a Masters in Biomedical Engineering from IIT Madras.",
+                "V. IIT of and from Masters a joined Principal is graduation fisat Technology, in Madras. fisat the Electronics Engineering (Dr) 01-01-2024 in He Engineering Institute Professor a National of Surat, Jacob The current from on Biomedical holds and Thomas"
+            ]
+        },
+        {
+            "tag": "finn",
+            "patterns": [
+                "who is finn",
+                "who you? are",
+                "who are you?",
+                "what is finn ai",
+                "finn who is"
+            ],
+            "responses": [
+                "chatbot natural. support simply here through that with to cherished Captain aim Finn, user-friendly I AI and the 24/7 a AI, and you seek instant accessible offer assistance, and guide or you support, services have receive IEEE interacting With provide interface, the best SB. chatting mascot, FISAT am I am possible My support to our to to address is is help information, am here you. SB to designed always your want you Whether require am I ensure whenever immediate need queries, seamlessly. it. the As a personalized of am FINN I chat, me to I Happy you easy assistance, you",
+                "I am FINN AI, the personalized AI chatbot of IEEE FISAT SB. I am designed to offer you immediate assistance, address your queries, and guide you through our services seamlessly. Whether you seek information, require support, or simply want to have a chat, I am here to help As the cherished SB mascot, Captain Finn, I am accessible 24/7 to provide instant support whenever you need it. With a user-friendly interface, interacting with me is easy and natural. My aim is to ensure that you receive the best possible assistance, and I am always here to support you. Happy chatting"
+            ]
+        },
+        {
+            "tag": "past_counsellor",
+            "patterns": [
+                "Outgoing SB IEEE Branch of Counsellor fisat",
+                "SB Branch Counsellor fisat Former of IEEE",
+                "Last Branch Counsellor of IEEE fisat SB",
+                "fisat of Counsellor SB IEEE Branch Last",
+                "Outgoing Branch Counsellor of IEEE fisat SB",
+                "Immediate Past Branch Counsellor of the IEEE fisat Student Branch",
+                "Recently Retired Branch Counsellor of IEEE fisat SB",
+                "IEEE fisat Counsellor Branch Previous SB of",
+                "Immediate Past Branch Counsellor of IEEE fisat SB",
+                "Recently Departed Branch Counsellor of IEEE fisat SB",
+                "Departed Branch Counsellor SB Recently of fisat IEEE",
+                "Most Recent Branch Counsellor of IEEE fisat SB",
+                "IEEE fisat Former of Counsellor Student Branch the Branch",
+                "Branch of Past fisat IEEE SB Immediate Counsellor",
+                "Previous Branch Counsellor of IEEE fisat SB",
+                "of SB Branch fisat Past Counsellor IEEE",
+                "Branch Past Student fisat Counsellor IEEE Immediate Branch the of",
+                "fisat Recent Most of IEEE SB Counsellor Branch",
+                "Past Branch Counsellor of IEEE fisat SB",
+                "Retired fisat IEEE Branch of Counsellor SB Recently",
+                "Former Branch Counsellor of IEEE fisat SB",
+                "Former Branch Counsellor of the IEEE fisat Student Branch"
+            ],
+            "responses": [
+                "The immediate past Branch Counsellor of IEEE fisat SB is Bejoy Vargheese.",
+                "Branch The of SB fisat immediate IEEE Bejoy Vargheese. is past Counsellor"
+            ]
+        },
+        {
+            "tag": "ieee_president",
+            "patterns": [
+                "IEEE me president you Can the is? tell who",
+                "the is IEEE? of acting Who president",
+                "Who is head of IEEE? the",
+                "as right IEEE is now? leading president Who",
+                "Can you tell me who the IEEE president is?",
+                "Could you inform me who the IEEE president is?",
+                "as serves Who IEEE president? the currently",
+                "IEEE? holds president at the of Who position",
+                "is of the organization? Who president the IEEE",
+                "Who holds the position of president at IEEE?",
+                "the you me IEEE is? inform Could who president",
+                "Can you provide the name of the current IEEE president?",
+                "current Who of president IEEE? the is",
+                "Who is the current president of IEEE?",
+                "Who is leading IEEE as president right now?",
+                "Who is the acting president of IEEE?",
+                "Who is the president of the IEEE organization?",
+                "the provide president? current name the you of IEEE Can",
+                "Who currently serves as the IEEE president?",
+                "Who is the head of IEEE?"
+            ],
+            "responses": [
+                "IEEE of Coughlin. president is The current Thomas",
+                "The current president of IEEE is Thomas Coughlin."
+            ]
+        },
+        {
+            "tag": "achievements",
+            "patterns": [
+                "What significant the recently? IEEE Student Branch made fisat achievements has",
+                "What notable achievements has the IEEE fisat SB secured recently?",
+                "the activities? recent are Student IEEE fisat the of highlights What Branch's",
+                "IEEE the Branch prestigious achievements fisat What has Student lately? accomplished",
+                "the for fisat IEEE the milestones been What Student have latest Branch?",
+                "What are some of the recent successes of the IEEE fisat Student Branch?",
+                "Can you list the latest accomplishments of the IEEE fisat SB?",
+                "What are the recent highlights of the IEEE fisat Student Branch's activities?",
+                "recent Could SB? IEEE the received by recognitions fisat you awards and share the",
+                "What achievements has the IEEE fisat Student Branch accomplished recently?",
+                "What been by SB? IEEE successfully have or recent events projects fisat completed the",
+                "What prestigious achievements has the IEEE fisat Student Branch accomplished lately?",
+                "What significant achievements has the IEEE fisat Student Branch made recently?",
+                "accomplished Student the achievements Branch fisat What has recently? IEEE",
+                "What have been the latest milestones for the IEEE fisat Student Branch?",
+                "What recent events or projects have been successfully completed by the IEEE fisat SB?",
+                "accomplishments you latest SB? the the of fisat IEEE list Can",
+                "Could you share the recent awards and recognitions received by the IEEE fisat SB?",
+                "notable secured What achievements IEEE recently? SB fisat the has",
+                "successes some Student IEEE are of fisat Branch? What recent the of the"
+            ],
+            "responses": [
+                "prestigious the Branch the Best won and in 2023-24, Outstanding the Branch IEEE Award The Chong Student Branch Student Student Darrel Kochi the for Award, year the Award has subsection. fisat",
+                "The IEEE fisat Student Branch has won the prestigious Darrel Chong Award, the Outstanding Student Branch Award for the year 2023-24, and the Best Student Branch Award in the Kochi subsection."
+            ]
+        },
+        {
+            "tag": "conference_presentations",
+            "patterns": [
+                "IEEE fisat presented Can members conferences? me who about of have at tell any SB you",
+                "spoken recent there Are have any SB conferences? fisat IEEE of members at who",
+                "conference_presentations",
+                "Are there IEEE fisat SB members who have showcased their research at conferences?",
+                "presentations Student conferences? Branch fisat Who given from at has IEEE",
+                "Who from IEEE fisat Student Branch has given presentations at conferences?",
+                "Has anyone from IEEE fisat SB given talks at any conferences?",
+                "Can you share details about any IEEE fisat SB members who have presented at academic or industry conferences?",
+                "Student Have fisat their Branch work at members presented any of conferences? IEEE",
+                "conferences? given talks from at Has IEEE anyone any SB fisat",
+                "Are there any members of IEEE fisat SB who have spoken at recent conferences?",
+                "Can you tell me about any members of IEEE fisat SB who have presented at conferences?",
+                "recently? members presentations fisat SB of delivered at IEEE conferences Which have",
+                "Do you know of any IEEE fisat SB members who have been conference speakers?",
+                "Have any members of IEEE fisat Student Branch presented their work at conferences?",
+                "Can you tell me if any IEEE fisat SB members have participated as speakers in conferences?",
+                "Which members of IEEE fisat SB have delivered presentations at conferences recently?",
+                "details share IEEE presented industry any you about fisat Can who have or members academic SB at conferences?",
+                "know conference any been have who SB you IEEE members fisat Do of speakers?",
+                "conferences? showcased there their IEEE who Are members at have fisat research SB",
+                "IEEE in any tell you members speakers if conferences? me fisat SB Can as participated have"
+            ],
+            "responses": [
+                "research the papers presented the A E EDUCON Conference. 2023 2022 Frontiers and FIE in Ayisha at",
+                "Ayisha E A presented research papers at the Frontiers in EDUCON 2023 and the FIE 2022 Conference."
+            ]
+        },
+        {
+            "tag": "international_events",
+            "patterns": [
+                "or SB conferences in international Did fisat any competitions? participate IEEE members",
+                "Are there any members of IEEE fisat SB who have been involved in international events?",
+                "events? engaged fisat members SB or activities any IEEE international Have in",
+                "Did any IEEE fisat SB members participate in international programs or competitions?",
+                "Have members of IEEE fisat SB been involved in any events or conferences abroad?",
+                "of fisat SB events? IEEE international any Have participated in members",
+                "have involved of events? there fisat IEEE in been Are SB who any members international",
+                "Have IEEE from branch members international represented events? the SB at fisat any",
+                "members in conferences abroad? IEEE any or of involved been fisat events Have SB",
+                "international_events",
+                "Have IEEE fisat SB members engaged in any international activities or events?",
+                "Can you share if IEEE fisat SB members have taken part in international activities?",
+                "you international have me fisat recently? Can any tell if events SB members IEEE attended",
+                "if you have fisat taken members activities? SB Can share in IEEE international part",
+                "SB in Did competitions? fisat members international any participate programs IEEE or",
+                "Student IEEE conferences participated Have fisat events? or global in members Branch",
+                "Can you tell me if IEEE fisat SB members have attended any international events recently?",
+                "Have any members from IEEE fisat SB represented the branch at international events?",
+                "Have members of IEEE fisat SB participated in any international events?",
+                "Have IEEE fisat Student Branch members participated in global conferences or events?",
+                "Did any IEEE fisat SB members participate in international conferences or competitions?"
+            ],
+            "responses": [
+                "Yes, Govind S Warrier attended the IEEE ISGT ASIA 2022 in Singapore and the IEEE R10 PES Training in Chiang Mai, Thailand. Jose Ben also represented the Robotics and Automation Society (RAS) as a Social Media Ambassador at the IROS 2022 conference in Kyoto, Japan.",
+                "attended at IEEE Japan. conference Thailand. a Ambassador Govind the the Training the Social (RAS) and ASIA 2022 R10 Kyoto, Chiang Singapore as ISGT in Mai, the IEEE Automation Media PES also in Jose Yes, 2022 IROS in Society Warrier S Robotics Ben represented and"
+            ]
+        },
+        {
+            "tag": "iros_role",
+            "patterns": [
+                "What duties did Jose Ben perform at the IROS 2022 conference?",
+                "Can you tell me about Jose Ben's participation at the IROS 2022 event?",
+                "conference? play at 2022 What the did Ben Jose part IROS",
+                "What part did Jose Ben play at the IROS 2022 conference?",
+                "Can you describe the position Jose Ben held at the IROS 2022 event?",
+                "Can Jose at event? about the Ben's you 2022 IROS tell me participation",
+                "What responsibilities did Jose Ben have during the IROS 2022 conference?",
+                "Jose responsibilities did the What during 2022 have IROS conference? Ben",
+                "Jose did specific role conference? What 2022 undertake IROS Ben the at",
+                "Jose held event? IROS the position Can at the Ben 2022 describe you",
+                "How did Jose Ben contribute to the IROS 2022 conference?",
+                "What role did Jose Ben play at the IROS 2022 conference?",
+                "to contribute Ben IROS How 2022 the conference? did Jose",
+                "What position did Jose Ben occupy during the IROS 2022 event?",
+                "during Ben did occupy What Jose event? IROS the 2022 position",
+                "Jose Ben at the role 2022 did What IROS conference? play",
+                "What specific role did Jose Ben undertake at the IROS 2022 conference?",
+                "Can you explain Jose Ben's involvement in the IROS 2022 event?",
+                "the did 2022 conference? duties at Ben Jose IROS perform What",
+                "the Jose 2022 Ben's event? Can IROS explain you involvement in"
+            ],
+            "responses": [
+                "Jose Ben served as a Social Media Ambassador for the Robotics and Automation Society (RAS) at the IROS 2022 conference in Kyoto, Japan.",
+                "conference the served Automation the IROS Social as (RAS) Media Japan. Kyoto, Robotics Ambassador 2022 and at in a Society Jose for Ben"
+            ]
+        },
+        {
+            "tag": "awards",
+            "patterns": [
+                "Has the IEEE fisat SB been recognized with any awards?",
+                "Have there been any awards given to the IEEE fisat Student Branch?",
+                "Did the IEEE fisat SB secure any awards or recognitions?",
+                "Has the IEEE fisat Student Branch received any awards?",
+                "fisat Are there Student accolades any the by received Branch? IEEE",
+                "Has the IEEE fisat Student Branch received any recognition?",
+                "IEEE been Branch? given Have there the Student to fisat awards any",
+                "Can you tell me if the IEEE fisat Student Branch has won any awards?",
+                "awards? Student IEEE Branch the received any fisat Has",
+                "awards you Branch IEEE Can fisat received? has Student list the the",
+                "recently? the fisat any Did IEEE Branch Student awards earn",
+                "awards? has Branch tell me IEEE if any the fisat won you Can Student",
+                "awards won by ieee fisat sb",
+                "Are there any accolades received by the IEEE fisat Student Branch?",
+                "Student fisat achieved awards? members the any IEEE Have Branch",
+                "honored has Student awards with? IEEE the Branch been fisat What",
+                "Can you list the awards the IEEE fisat Student Branch has received?",
+                "What awards has the IEEE fisat Student Branch been honored with?",
+                "Have the IEEE fisat Student Branch members achieved any awards?",
+                "awards? recognized SB been any with the IEEE Has fisat",
+                "the received fisat Student IEEE Has recognition? any Branch",
+                "SB fisat or secure awards recognitions? the IEEE any Did",
+                "ieee sb awards by won fisat",
+                "Did the IEEE fisat Student Branch earn any awards recently?"
+            ],
+            "responses": [
+                "Student for Branch Darrel Outstanding received the subsection. Yes, Student IEEE Branch Kochi and the has Award Student Award, 2023-24, Best in Chong Branch the fisat Award the the",
+                "Yes, the IEEE fisat Student Branch has received the Darrel Chong Award, the Outstanding Student Branch Award for 2023-24, and the Best Student Branch Award in the Kochi subsection."
+            ]
+        },
+        {
+            "tag": "broader_ieee",
+            "patterns": [
+                "IEEE fisat to wider How SB members community? IEEE the contribute do",
+                "in members the fisat IEEE IEEE have SB community? do What broader participation",
+                "In what ways are IEEE fisat SB members involved in the larger IEEE organization?",
+                "you community? the participation explain IEEE in the Can of SB fisat overall IEEE members",
+                "SB IEEE IEEE involvement in community? broader What have fisat do members the",
+                "Can you explain the participation of IEEE fisat SB members in the overall IEEE community?",
+                "How fisat community? IEEE wider IEEE the members SB are with engaged",
+                "IEEE SB organization? IEEE what the larger are ways involved members In in fisat",
+                "What is the extent of IEEE fisat SB members' engagement with the broader IEEE network?",
+                "How do IEEE fisat SB members contribute to the wider IEEE community?",
+                "greater How IEEE SB involved members the fisat of community? are IEEE with",
+                "How are members of IEEE fisat SB involved with the greater IEEE community?",
+                "What participation do IEEE fisat SB members have in the broader IEEE community?",
+                "How are IEEE fisat SB members engaged with the wider IEEE community?",
+                "What involvement do IEEE fisat SB members have in the broader IEEE community?",
+                "play broader members IEEE SB do What the IEEE fisat in community? roles",
+                "the extent SB the IEEE IEEE engagement members' What is with network? fisat broader of",
+                "Can and you wider IEEE interaction between describe IEEE community? SB the members fisat the",
+                "Can you describe the interaction between IEEE fisat SB members and the wider IEEE community?",
+                "What roles do IEEE fisat SB members play in the broader IEEE community?",
+                "What participation do IEEE fisat SB members have in the global IEEE community?",
+                "IEEE participation have members What in IEEE community? do the SB global fisat"
+            ],
+            "responses": [
+                "Members of IEEE fisat SB actively participate in the Kerala Section leadership team and the global team, demonstrating their dedication to the IEEE community and leadership development.",
+                "leadership the and of team IEEE development. dedication and SB the demonstrating fisat global Members community IEEE Kerala the in team, leadership their Section to participate actively"
+            ]
+        },
+        {
+            "tag": "member_development",
+            "patterns": [
+                "How does IEEE fisat SB contribute to its members' development?",
+                "What IEEE does development? programs SB member provide promote to fisat",
+                "How are members of IEEE fisat SB supported in their development?",
+                "you explain of Can development fisat IEEE in how its the aids SB members?",
+                "What opportunities does IEEE fisat SB offer for member development?",
+                "fisat its IEEE How personal help members? of professional does and growth SB in the",
+                "What initiatives does IEEE fisat SB offer to enhance member development?",
+                "How does IEEE fisat SB facilitate the development of its members?",
+                "What role does IEEE fisat SB play in the growth of its members?",
+                "What programs does IEEE fisat SB provide to promote member development?",
+                "In growth ways what the of does support IEEE SB members? its fisat",
+                "In what ways does IEEE fisat SB support the growth of its members?",
+                "Can you explain how IEEE fisat SB aids in the development of its members?",
+                "How fisat its nurture SB members' development? does IEEE",
+                "How does IEEE fisat SB nurture its members' development?",
+                "development? SB for opportunities does fisat What IEEE offer member",
+                "to IEEE initiatives What development? fisat enhance does SB member offer",
+                "How does IEEE fisat SB help in the professional and personal growth of its members?",
+                "to members' SB development? does contribute How IEEE fisat its",
+                "of its IEEE play in SB members? What the growth does role fisat",
+                "fisat the development How facilitate SB members? of does IEEE its",
+                "of are supported members IEEE their How SB development? fisat in"
+            ],
+            "responses": [
+                "The IEEE fisat Student Branch supports leadership growth, fosters research opportunities, and encourages student development, helping members gain experience and recognition in the IEEE community.",
+                "in leadership and growth, IEEE community. recognition IEEE gain development, experience and opportunities, student fisat The fosters encourages supports helping Branch the research members Student"
+            ]
+        },
+        {
+            "tag": "stand_out",
+            "patterns": [
+                "How does the IEEE fisat Student Branch excel in the IEEE community?",
+                "What aspects of the IEEE fisat Student Branch make it prominent in the IEEE community?",
+                "stand the in community? Branch What IEEE out the Student achievements IEEE fisat make",
+                "In what ways is the IEEE fisat Student Branch unique within the IEEE community?",
+                "does IEEE the itself Student Branch fisat IEEE within How distinguish community? the",
+                "What contributions of the IEEE fisat Student Branch are recognized in the IEEE community?",
+                "Branch prominent Student fisat make IEEE of community? IEEE What the aspects it the in",
+                "out in stand makes What community? Student the the IEEE IEEE Branch fisat",
+                "are the community? Student the IEEE IEEE in Branch features fisat distinguishing of What the",
+                "What sets the IEEE fisat Student Branch apart from other branches in the IEEE community?",
+                "Why is the IEEE fisat Student Branch notable in the IEEE community?",
+                "What achievements make the IEEE fisat Student Branch stand out in the IEEE community?",
+                "What are the distinguishing features of the IEEE fisat Student Branch in the IEEE community?",
+                "IEEE In community? the unique within IEEE the ways Student is Branch what fisat",
+                "How does the IEEE fisat Student Branch distinguish itself within the IEEE community?",
+                "What IEEE IEEE are community? fisat of recognized Branch the the contributions Student in",
+                "Branch the How excel does community? IEEE IEEE Student in the fisat",
+                "What makes the IEEE fisat Student Branch stand out in the IEEE community?",
+                "from sets Branch IEEE other community? the in fisat the Student IEEE What branches apart",
+                "community? in fisat notable the Student IEEE IEEE Branch is the Why"
+            ],
+            "responses": [
+                "The IEEE fisat Student Branch stands out in the IEEE community due to its multiple achievements, including winning prestigious awards, active participation in international events, and holding leadership roles within the IEEE organization.",
+                "Branch IEEE prestigious leadership and in including The events, in winning the active awards, fisat holding Student multiple organization. due IEEE the IEEE stands out international community within achievements, roles its to participation"
+            ]
+        },
+        {
+            "tag": "kochi_award",
+            "patterns": [
+                "Which prize was awarded to the IEEE fisat Student Branch in the Kochi subsection?",
+                "you in Kochi Can award the fisat Branch received by describe the Student subsection? the IEEE",
+                "What award did the IEEE fisat Student Branch obtain in the Kochi subsection?",
+                "Can you describe the award received by the IEEE fisat Student Branch in the Kochi subsection?",
+                "What distinction did the IEEE fisat Student Branch achieve in the Kochi subsection?",
+                "in subsection? Kochi the Branch the What Student IEEE earn accolade fisat did",
+                "Can you tell me about the award given to the IEEE fisat Student Branch in the Kochi subsection?",
+                "Kochi prize Which subsection? awarded fisat in was Branch the to the Student IEEE",
+                "obtain award the did IEEE What the in Student subsection? Branch fisat Kochi",
+                "the in Kochi What subsection? bestowed was Student Branch fisat the IEEE upon honor",
+                "What specific award did the IEEE fisat Student Branch win in the Kochi subsection?",
+                "What award did the IEEE fisat Student Branch receive in the Kochi subsection?",
+                "the award in Which with IEEE honored Branch subsection? Kochi was fisat Student the",
+                "you tell IEEE Kochi the Student about given Branch to the me the in subsection? Can award fisat",
+                "What recognition did the IEEE fisat Student Branch receive in the Kochi subsection?",
+                "the IEEE specific in fisat win did the subsection? What Student Kochi Branch award",
+                "Student subsection? recognition Kochi did the Branch fisat in What IEEE the receive",
+                "Kochi fisat Student the in Branch the What receive subsection? award IEEE did",
+                "Which award was the IEEE fisat Student Branch honored with in the Kochi subsection?",
+                "the Kochi subsection? did distinction the Branch in Student What fisat IEEE achieve",
+                "What accolade did the IEEE fisat Student Branch earn in the Kochi subsection?",
+                "What honor was bestowed upon the IEEE fisat Student Branch in the Kochi subsection?"
+            ],
+            "responses": [
+                "Best Award IEEE Branch with The the subsection. was Branch Kochi honored fisat in Student the Student",
+                "The IEEE fisat Student Branch was honored with the Best Student Branch Award in the Kochi subsection."
+            ]
+        },
+        {
+            "tag": "excom_members",
+            "patterns": [
+                "What is the membership size of the EXECOM?",
+                "What is the member count for the EXECOM?",
+                "of members What the in is the total count EXECOM?",
+                "consist the many of? How does EXECOM members",
+                "How many people are part of the EXECOM?",
+                "is EXECOM? membership the What size of the",
+                "the of members the me tell Can you number in EXECOM?",
+                "How many individuals serve in the EXECOM?",
+                "EXECOM? in many the individuals How serve",
+                "EXECOM terms is How large of membership? the in",
+                "EXECOM? member the for the count is What",
+                "Could you provide the number of members in the EXECOM?",
+                "members provide number of in EXECOM? the Could the you",
+                "What is the total count of members in the EXECOM?",
+                "How large is the EXECOM in terms of membership?",
+                "Can you tell me the number of members in the EXECOM?",
+                "How many members does the EXECOM consist of?",
+                "How many members are in the EXECOM?",
+                "are EXECOM? the How many in members",
+                "How many EXECOM? the of part are people"
+            ],
+            "responses": [
+                "There are 41 members in the EXECOM.",
+                "There EXECOM. are the members 41 in"
+            ]
+        },
+        {
+            "tag": "ieee_fisat_chair",
+            "patterns": [
+                "Who is now? the serving as chair SB fisat right IEEE of",
+                "Could you provide the name of the current chair of IEEE fisat SB?",
+                "current me the SB tell chair who is? you Can IEEE of fisat",
+                "provide IEEE of current fisat chair name you Could the the SB? of",
+                "Who currently chairs IEEE fisat SB?",
+                "Who is the leader of IEEE fisat SB at this time?",
+                "Who holds the position of chair for IEEE fisat SB at present?",
+                "fisat currently IEEE Who SB? chairs",
+                "the chair Who position IEEE at fisat for SB of present? holds",
+                "Name of the current chair of IEEE fisat SB is ?",
+                "Who is the present chairperson of IEEE fisat SB?",
+                "Who is serving as the chair of IEEE fisat SB right now?",
+                "IEEE SB? of head fisat is Who current the",
+                "of fisat SB is IEEE Name current chair of ? the",
+                "the is of fisat Who SB? present chairperson IEEE",
+                "Who is the current head of IEEE fisat SB?",
+                "Who is the chair",
+                "Who chair the is",
+                "Who is chair",
+                "Can you tell me who the current chair of IEEE fisat SB is?",
+                "the is fisat time? of IEEE at this SB leader Who",
+                "chair Who is"
+            ],
+            "responses": [
+                "The fisat chair SB R current IEEE Bhavana Nair. of is",
+                "The current chair of IEEE fisat SB is Bhavana R Nair."
+            ]
+        },
+        {
+            "tag": "ieee_fisat_secretary",
+            "patterns": [
+                "Who is the secretary",
+                "you of Can IEEE current who the secretary SB fisat tell is? me",
+                "Who holds the position of secretary for IEEE fisat SB at present?",
+                "Can you tell me who the current secretary of IEEE fisat SB is?",
+                "of holds at SB position Who IEEE fisat the for secretary present?",
+                "Could you provide the name of the current secretary of IEEE fisat SB?",
+                "Who is serving as the secretary of IEEE fisat SB right now?",
+                "Who is the current head secretary of IEEE fisat SB?",
+                "is secretary Who",
+                "IEEE head fisat current is Who the of SB? secretary",
+                "as the currently fisat IEEE secretary for Who SB? acts",
+                "current of the provide secretary you fisat SB? IEEE Could of the name",
+                "Who is the acting secretary of IEEE fisat SB?",
+                "Who is the secretary of IEEE fisat SB at this time?",
+                "Who is secretary",
+                "secretary this is time? Who at the fisat SB IEEE of",
+                "Name of the current secretary of IEEE fisat SB is ?",
+                "fisat of SB? IEEE Who the present secretary is",
+                "now? is fisat of Who as IEEE serving the right SB secretary",
+                "is Who the secretary",
+                "is acting of secretary the Who fisat SB? IEEE",
+                "Who is the present secretary of IEEE fisat SB?",
+                "Who currently acts as the secretary for IEEE fisat SB?",
+                "is of the fisat secretary Name IEEE of ? SB current"
+            ],
+            "responses": [
+                "of secretary SB current K. The Anoushka fisat IEEE is",
+                "The current secretary of IEEE fisat SB is Anoushka K."
+            ]
+        },
+        {
+            "tag": "vice_chair",
+            "patterns": [
+                "Who role in fisat at SB? current individual chair vice the the is IEEE",
+                "Could you inform me about the current vice chair of IEEE fisat SB?",
+                "present? is of IEEE who SB vice the at fisat know you Do chair",
+                "chair of fisat who tell me vice the IEEE you SB Can current is?",
+                "Who is serving as the vice chair of IEEE fisat SB currently?",
+                "the Who's of fisat IEEE chair SB? vice currently",
+                "Can you tell me who the current vice chair of IEEE fisat SB is?",
+                "at of Who holds IEEE chair the now? position SB right fisat vice",
+                "SB chair vice now? fisat the is right IEEE Who of acting",
+                "Do you know who the vice chair of IEEE fisat SB is at present?",
+                "Who is the current individual in the vice chair role at IEEE fisat SB?",
+                "Who is vice chair",
+                "Who the is the of SB? fisat present chair vice IEEE",
+                "SB fisat need who to as chair of know vice now. the IEEE is I of",
+                "Who's currently the vice chair of IEEE fisat SB?",
+                "me IEEE inform vice current Could you the fisat about of SB? chair",
+                "Who is the acting vice chair of IEEE fisat SB right now?",
+                "Who is the present vice chair of the IEEE fisat SB?",
+                "is chair vice the Who",
+                "Who holds the position of vice chair at IEEE fisat SB right now?",
+                "chair Who vice is",
+                "I need to know who the vice chair of IEEE fisat SB is as of now.",
+                "Who is the vice chair",
+                "serving the currently? SB IEEE as of fisat is Who vice chair"
+            ],
+            "responses": [
+                "chair fisat is SB current Issac John. vice IEEE The of",
+                "The current vice chair of IEEE fisat SB is Issac John."
+            ]
+        },
+        {
+            "tag": "ieee_fisat_treasurer",
+            "patterns": [
+                "as IEEE currently? Who is SB fisat treasurer serving the of",
+                "Do you know who the treasurer of IEEE fisat SB is at present?",
+                "the Who treasurer now? is of acting fisat SB IEEE right",
+                "the of treasurer IEEE me current SB? fisat you Could inform about",
+                "Who is treasurer",
+                "I need to know who the treasurer of IEEE fisat SB is as of now.",
+                "of now. the IEEE as SB treasurer need I who fisat of know is to",
+                "Who holds the position of treasurer at IEEE fisat SB right now?",
+                "Could you inform me about the current treasurer of IEEE fisat SB?",
+                "is current IEEE Who treasurer role fisat in at the the SB? individual",
+                "fisat Who's currently IEEE treasurer the of SB?",
+                "treasurer is Who",
+                "Who's currently the treasurer of IEEE fisat SB?",
+                "at IEEE of fisat Do who SB know the is you present? treasurer",
+                "Can you tell me who the current treasurer of IEEE fisat SB is?",
+                "IEEE current who the of treasurer fisat you tell SB me is? Can",
+                "Who is the treasurer",
+                "SB? treasurer the present fisat IEEE the of Who is",
+                "Who is the current individual in the treasurer role at IEEE fisat SB?",
+                "Who is the acting treasurer of IEEE fisat SB right now?",
+                "Who is the present treasurer of the IEEE fisat SB?",
+                "Who is treasurer the",
+                "Who is serving as the treasurer of IEEE fisat SB currently?",
+                "treasurer fisat position of at Who holds the SB right now? IEEE"
+            ],
+            "responses": [
+                "SB current Sandesh IEEE treasurer of fisat The Girish. is",
+                "The current treasurer of IEEE fisat SB is Sandesh Girish."
+            ]
+        },
+        {
+            "tag": "ieee_fisat_technical_coordinator",
+            "patterns": [
+                "Can you tell me who the current technical coordinator of IEEE fisat SB is?",
+                "Who is the acting technical coordinator of IEEE fisat SB right now?",
+                "is the as IEEE currently? technical of serving Who SB coordinator fisat",
+                "Who's currently the technical coordinator of IEEE fisat SB?",
+                "Who is technical coordinator",
+                "tell me technical who fisat current the you coordinator is? of IEEE SB Can",
+                "Could you inform me about the current technical coordinator of IEEE fisat SB?",
+                "me Could IEEE about fisat coordinator current inform you SB? the technical of",
+                "Who is the technical coordinator",
+                "the the present technical SB? Who fisat is coordinator of IEEE",
+                "Who holds the position of technical coordinator at IEEE fisat SB right now?",
+                "I need to know who the technical coordinator of IEEE fisat SB is as of now.",
+                "Who is the current individual in the technical coordinator role at IEEE fisat SB?",
+                "coordinator IEEE SB? the role at fisat is individual the Who current technical in",
+                "is coordinator technical Who",
+                "know of as the coordinator of technical need to SB who is I fisat IEEE now.",
+                "of fisat SB coordinator acting right IEEE the Who technical is now?",
+                "coordinator fisat IEEE currently Who's technical SB? of the",
+                "is coordinator the technical Who",
+                "is SB know fisat coordinator of IEEE you present? Do the at technical who",
+                "Do you know who the technical coordinator of IEEE fisat SB is at present?",
+                "Who is the present technical coordinator of the IEEE fisat SB?",
+                "position right IEEE at Who of the SB technical fisat now? holds coordinator",
+                "Who is serving as the technical coordinator of IEEE fisat SB currently?"
+            ],
+            "responses": [
+                "is fisat Kunjumon. of IEEE SB current coordinator The Godwin technical",
+                "The current technical coordinator of IEEE fisat SB is Godwin Kunjumon."
+            ]
+        },
+        {
+            "tag": "ieee_fisat_assistant_treasurer",
+            "patterns": [
+                "Who holds the position of assistant treasurer at IEEE fisat SB right now?",
+                "Can you tell me who the current assistant treasurer of IEEE fisat SB is?",
+                "Who of now? SB acting IEEE the treasurer is right fisat assistant",
+                "is the Who assistant treasurer",
+                "Could you inform me about the current assistant treasurer of IEEE fisat SB?",
+                "treasurer Who assistant is",
+                "I need to know who the assistant treasurer of IEEE fisat SB is as of now.",
+                "Who is assistant treasurer",
+                "of right now? the treasurer Who fisat assistant position IEEE holds SB at",
+                "Who is the present assistant treasurer of the IEEE fisat SB?",
+                "of me who Can fisat is? IEEE tell current assistant you treasurer SB the",
+                "Who is the current individual in the assistant treasurer role at IEEE fisat SB?",
+                "now. need who SB to I of treasurer know is fisat as IEEE the of assistant",
+                "Who is the assistant treasurer",
+                "Who is the acting assistant treasurer of IEEE fisat SB right now?",
+                "Who's currently the assistant treasurer of IEEE fisat SB?",
+                "Who serving currently? SB is IEEE the fisat of treasurer assistant as",
+                "fisat assistant the is present treasurer SB? Who IEEE of the",
+                "Who is serving as the assistant treasurer of IEEE fisat SB currently?",
+                "Do you know who the assistant treasurer of IEEE fisat SB is at present?",
+                "fisat is individual IEEE treasurer in Who role at current SB? assistant the the",
+                "Could SB? current you treasurer of me about fisat inform the assistant IEEE",
+                "treasurer of SB? Who's currently assistant IEEE the fisat",
+                "present? you treasurer the fisat is assistant SB of at know IEEE Do who"
+            ],
+            "responses": [
+                "IEEE The of assistant Aron Easo. current treasurer is SB fisat",
+                "The current assistant treasurer of IEEE fisat SB is Aron Easo."
+            ]
+        },
+        {
+            "tag": "ieee_fisat_ecc",
+            "patterns": [
+                "of Who fisat ECC the at IEEE position right holds SB now?",
+                "Who is ECC",
+                "ECC Who is",
+                "Who's currently the ECC of IEEE fisat SB?",
+                "Who of fisat the as is currently? IEEE SB ECC serving",
+                "ECC the Who is",
+                "fisat who present? of the is SB IEEE Do ECC you at know",
+                "Who is the present ECC of the IEEE fisat SB?",
+                "Do you know who the ECC of IEEE fisat SB is at present?",
+                "role the in at current individual SB? IEEE ECC the is fisat Who",
+                "IEEE of fisat Who the ECC now? acting right is SB",
+                "ECC about fisat SB? IEEE Could you current me the of inform",
+                "now. the know need fisat ECC as of IEEE who I is SB of to",
+                "Who is the acting ECC of IEEE fisat SB right now?",
+                "Who is the current individual in the ECC role at IEEE fisat SB?",
+                "Can you tell me who the current ECC of IEEE fisat SB is?",
+                "Who SB? the of IEEE the fisat ECC present is",
+                "Who's currently SB? the ECC of fisat IEEE",
+                "IEEE Can you is? of fisat SB who me the current ECC tell",
+                "Who is serving as the ECC of IEEE fisat SB currently?",
+                "I need to know who the ECC of IEEE fisat SB is as of now.",
+                "Who is the ECC",
+                "Could you inform me about the current ECC of IEEE fisat SB?",
+                "Who holds the position of ECC at IEEE fisat SB right now?"
+            ],
+            "responses": [
+                "The and IEEE Afeefa are SB ECC of fisat Davis M S. current Febin",
+                "The current ECC of IEEE fisat SB are Febin Davis and Afeefa M S."
+            ]
+        },
+        {
+            "tag": "ieee_fisat_md_chair",
+            "patterns": [
+                "currently fisat MD chair the SB? IEEE Who's of",
+                "Who is the acting MD chair of IEEE fisat SB right now?",
+                "you chair Do of present? know the is at who MD IEEE fisat SB",
+                "Could you inform me about the current MD chair of IEEE fisat SB?",
+                "Do you know who the MD chair of IEEE fisat SB is at present?",
+                "MD is chair Who",
+                "Who holds the position of MD chair at IEEE fisat SB right now?",
+                "Who is serving as the MD chair of IEEE fisat SB currently?",
+                "chair is Who MD the",
+                "Could me current inform you IEEE fisat of chair SB? about the MD",
+                "chair of IEEE now? Who SB MD fisat the is acting right",
+                "of is fisat as the currently? MD IEEE chair Who serving SB",
+                "Who's currently the MD chair of IEEE fisat SB?",
+                "Can you tell me who the current MD chair of IEEE fisat SB is?",
+                "SB? chair is the the of fisat Who MD IEEE present",
+                "Who is the current individual in the MD chair role at IEEE fisat SB?",
+                "me SB who current IEEE you of the MD Can chair is? fisat tell",
+                "of Who fisat the holds right at SB position IEEE chair now? MD",
+                "I need to know who the MD chair of IEEE fisat SB is as of now.",
+                "Who is the MD chair",
+                "Who is the present MD chair of the IEEE fisat SB?",
+                "at Who is current fisat MD IEEE SB? chair individual role in the the",
+                "IEEE is who now. SB to fisat I MD know chair as of of need the",
+                "Who is MD chair"
+            ],
+            "responses": [
+                "MD IEEE Wilson chair of is Nevin. current The fisat SB",
+                "The current MD chair of IEEE fisat SB is Wilson Nevin."
+            ]
+        },
+        {
+            "tag": "ieee_fisat_link_rep",
+            "patterns": [
+                "Who is serving as the link rep of IEEE fisat SB currently?",
+                "Can you tell me who the current link rep of IEEE fisat SB is?",
+                "SB? the rep is IEEE fisat individual link Who the at current role in",
+                "Who is the current individual in the link rep role at IEEE fisat SB?",
+                "SB who Can link IEEE of the you rep current is? fisat tell me",
+                "Who the link rep is",
+                "SB serving fisat is of Who currently? rep IEEE link the as",
+                "rep is who fisat Do IEEE link at you of know SB present? the",
+                "the rep IEEE present of the SB? Who link fisat is",
+                "of link rep me you SB? Could IEEE fisat about the current inform",
+                "I need to know who the link rep of IEEE fisat SB is as of now.",
+                "is Who rep link",
+                "Who holds the position of link rep at IEEE fisat SB right now?",
+                "SB Who right IEEE is the link now? of rep fisat acting",
+                "Who is the present link rep of the IEEE fisat SB?",
+                "Do you know who the link rep of IEEE fisat SB is at present?",
+                "Who's currently the link rep of IEEE fisat SB?",
+                "Who is the acting link rep of IEEE fisat SB right now?",
+                "fisat holds now? link the of Who right rep position IEEE SB at",
+                "of currently fisat the IEEE Who's link SB? rep",
+                "Who is link rep",
+                "Who is the link rep",
+                "need I rep link know as to fisat is SB the of who now. of IEEE",
+                "Could you inform me about the current link rep of IEEE fisat SB?"
+            ],
+            "responses": [
+                "Menon. of current G SB is Adwaith fisat IEEE rep The link",
+                "The current link rep of IEEE fisat SB is Adwaith G Menon."
+            ]
+        },
+        {
+            "tag": "webmaster_ieee_fisat_sb",
+            "patterns": [
+                "SB? fisat IEEE Who's the of currently webmaster",
+                "Who is the current webmaster of IEEE fisat SB?",
+                "the at Do is fisat present? SB of you know webmaster who IEEE",
+                "Who is the webmaster",
+                "Who is the current individual in the webmaster role at IEEE fisat SB?",
+                "of tell who Can you SB fisat me current webmaster the is? IEEE",
+                "Who is serving as the webmaster of IEEE fisat SB currently?",
+                "Who is the acting webmaster of IEEE fisat SB right now?",
+                "Can you tell me who the current webmaster of IEEE fisat SB is?",
+                "Who webmaster the is",
+                "SB IEEE fisat now? right webmaster position Who of at holds the",
+                "webmaster you of SB? current IEEE me the inform fisat Could about",
+                "is Who webmaster",
+                "IEEE in webmaster SB? at the individual the role Who current is fisat",
+                "of Who the IEEE webmaster SB right now? acting fisat is",
+                "Who is webmaster",
+                "Who is the present webmaster of the IEEE fisat SB?",
+                "I need to know who the webmaster of IEEE fisat SB is as of now.",
+                "current fisat the IEEE of is SB? webmaster Who",
+                "webmaster Who SB? the the IEEE present of fisat is",
+                "Do you know who the webmaster of IEEE fisat SB is at present?",
+                "Could you inform me about the current webmaster of IEEE fisat SB?",
+                "Who holds the position of webmaster at IEEE fisat SB right now?",
+                "to of now. as I SB is know need IEEE the webmaster who fisat of",
+                "Who's currently the webmaster of IEEE fisat SB?",
+                "IEEE webmaster SB Who the of is serving fisat as currently?"
+            ],
+            "responses": [
+                "The current webmaster of IEEE fisat SB is Anantha Krishnan.",
+                "webmaster Krishnan. The current of IEEE SB fisat Anantha is"
+            ]
+        },
+        {
+            "tag": "subcom_lead_ieee_fisat_sb",
+            "patterns": [
+                "Who is the current SUBCOM lead of IEEE fisat SB?",
+                "Who is the SUBCOM lead",
+                "Who holds the position of SUBCOM lead at IEEE fisat SB right now?",
+                "Who's currently the SUBCOM lead of IEEE fisat SB?",
+                "fisat need as I know to IEEE of SB is now. who lead of SUBCOM the",
+                "is SUBCOM Who lead the",
+                "lead is? who SB tell of the SUBCOM you current IEEE me Can fisat",
+                "lead is SUBCOM Who",
+                "IEEE lead serving Who SB SUBCOM fisat is currently? of the as",
+                "is current at fisat the in lead SB? SUBCOM IEEE role individual the Who",
+                "Who is the current individual in the SUBCOM lead role at IEEE fisat SB?",
+                "right holds position lead Who the of at SUBCOM SB now? IEEE fisat",
+                "SUBCOM you the me SB? about fisat inform current Could lead of IEEE",
+                "Who is the acting SUBCOM lead of IEEE fisat SB right now?",
+                "Could you inform me about the current SUBCOM lead of IEEE fisat SB?",
+                "of current is SB? SUBCOM Who IEEE fisat the lead",
+                "Do you know who the SUBCOM lead of IEEE fisat SB is at present?",
+                "Can you tell me who the current SUBCOM lead of IEEE fisat SB is?",
+                "present? is who of at the SB Do lead know IEEE fisat you SUBCOM",
+                "Who is SUBCOM lead",
+                "IEEE is now? acting of SUBCOM SB Who fisat right the lead",
+                "I need to know who the SUBCOM lead of IEEE fisat SB is as of now.",
+                "the is IEEE fisat Who present the SB? of lead SUBCOM",
+                "Who is the present SUBCOM lead of the IEEE fisat SB?",
+                "lead currently SUBCOM fisat the IEEE of SB? Who's",
+                "Who is serving as the SUBCOM lead of IEEE fisat SB currently?"
+            ],
+            "responses": [
+                "The current SUBCOM lead of IEEE fisat SB is Fathima Ismail.",
+                "of is current fisat The Ismail. SUBCOM lead IEEE SB Fathima"
+            ]
+        },
+        {
+            "tag": "design_lead_ieee_fisat_sb",
+            "patterns": [
+                "SB? the currently of lead IEEE Who's design fisat",
+                "Who is the current individual in the design lead role at IEEE fisat SB?",
+                "I need to know who the design lead of IEEE fisat SB is as of now.",
+                "is fisat of current the lead SB? IEEE design Who",
+                "Who is design lead",
+                "Who is the acting design lead of IEEE fisat SB right now?",
+                "Who's currently the design lead of IEEE fisat SB?",
+                "Who IEEE design fisat the is acting right SB of now? lead",
+                "Who currently? the serving lead IEEE is design SB as fisat of",
+                "Who is serving as the design lead of IEEE fisat SB currently?",
+                "design lead Who is the",
+                "fisat IEEE the lead who design present? SB is Do know you of at",
+                "position IEEE design fisat Who right now? holds the SB lead at of",
+                "current is IEEE SB? individual design lead in Who the fisat at role the",
+                "design as know now. IEEE I lead to the SB of who fisat of need is",
+                "Who lead is design",
+                "Who is the design lead",
+                "you Could the current about of IEEE SB? inform lead me design fisat",
+                "Could you inform me about the current design lead of IEEE fisat SB?",
+                "is of the design Who fisat SB? IEEE present the lead",
+                "Who holds the position of design lead at IEEE fisat SB right now?",
+                "Can you tell me who the current design lead of IEEE fisat SB is?",
+                "Who is the present design lead of the IEEE fisat SB?",
+                "the lead tell of Can IEEE design who fisat current is? me you SB",
+                "Who is the current design lead of IEEE fisat SB?",
+                "Do you know who the design lead of IEEE fisat SB is at present?"
+            ],
+            "responses": [
+                "The current design lead of IEEE fisat SB is Cibin Joseph.",
+                "fisat lead current design The IEEE of Cibin SB is Joseph."
+            ]
+        },
+        {
+            "tag": "documentation_sdp_lead_ieee_fisat_sb",
+            "patterns": [
+                "Can you tell me who the current Documentation/SDP Lead of IEEE fisat SB is?",
+                "Who is the current Documentation/SDP Lead of IEEE fisat SB?",
+                "Who is Documentation Lead",
+                "SB IEEE you who me is? Lead tell Documentation/SDP fisat the of current Can",
+                "IEEE currently Lead fisat Who's SB? Documentation/SDP the of",
+                "I need to know who the Documentation/SDP Lead of IEEE fisat SB is as of now.",
+                "SB? IEEE of Lead Who the is fisat current Documentation/SDP",
+                "fisat is SB the know to who I IEEE Lead as need of now. of Documentation/SDP",
+                "Who is the current individual in the Documentation/SDP Lead role at IEEE fisat SB?",
+                "Who is the acting Documentation/SDP Lead of IEEE fisat SB right now?",
+                "Could you inform me about the current Documentation/SDP Lead of IEEE fisat SB?",
+                "Who Documentation/SDP fisat SB position holds at Lead IEEE of right now? the",
+                "you SB? Lead of Could current about Documentation/SDP fisat the me inform IEEE",
+                "Do you know who the Documentation/SDP Lead of IEEE fisat SB is at present?",
+                "IEEE Lead Documentation/SDP of is serving as Who fisat the currently? SB",
+                "Who holds the position of Documentation/SDP Lead at IEEE fisat SB right now?",
+                "SB IEEE who Documentation/SDP of Do the is know at Lead you present? fisat",
+                "Documentation is Lead Who",
+                "SB fisat IEEE Who Lead acting Documentation/SDP of right is the now?",
+                "is fisat IEEE Who the SB? present the Documentation/SDP of Lead",
+                "Who is serving as the Documentation/SDP Lead of IEEE fisat SB currently?",
+                "Who's currently the Documentation/SDP Lead of IEEE fisat SB?",
+                "Who is the present Documentation/SDP Lead of the IEEE fisat SB?",
+                "the Lead Who Documentation is",
+                "Who is the Documentation Lead",
+                "the in Documentation/SDP individual current role SB? Lead Who at the is IEEE fisat"
+            ],
+            "responses": [
+                "The current Documentation/SDP Lead of IEEE fisat SB is Ajay Krishna M.",
+                "The is Documentation/SDP Lead M. Krishna IEEE of SB current Ajay fisat"
+            ]
+        },
+        {
+            "tag": "sdp_lead_ieee_fisat_sb",
+            "patterns": [
+                "Who is the current SDP Lead of IEEE fisat SB?",
+                "Who the in role SDP SB? Lead IEEE currently at fisat is",
+                "Who is serving as the SDP Lead for IEEE fisat SB currently?",
+                "Who is acting as the SDP Lead at IEEE fisat SB right now?",
+                "I\u2019m looking for the current SDP Lead of IEEE fisat SB. Can you help?",
+                "now? as at of Lead SB fisat SDP IEEE Who's the",
+                "Lead SB. help? looking you for IEEE current SDP the fisat I\u2019m of Can",
+                "SDP is Lead Who",
+                "Do you know the name of the current SDP Lead of IEEE fisat SB?",
+                "Name the current SDP Lead at IEEE fisat SB?",
+                "SDP is Who the Lead",
+                "Who's the SDP Lead at IEEE fisat SB as of now?",
+                "Who is currently in the SDP Lead role at IEEE fisat SB?",
+                "for fisat IEEE of the Can SDP Lead current the you name provide SB?",
+                "Who is SDP Lead",
+                "Can you tell me who holds the SDP Lead position at IEEE fisat SB right now?",
+                "at fisat present SB? is the Who SDP Lead IEEE",
+                "at SDP IEEE Name fisat current SB? Lead the",
+                "me the SB right who Can position Lead holds fisat SDP at tell you IEEE now?",
+                "Can you provide the name of the current SDP Lead for IEEE fisat SB?",
+                "serving Who SDP IEEE Lead the fisat as SB is for currently?",
+                "of Lead SDP fisat of SB? name you current the the know Do IEEE",
+                "Who is the SDP Lead",
+                "now? SDP as at Lead is the SB IEEE Who fisat acting right",
+                "IEEE is current Who of SDP Lead SB? the fisat",
+                "Who is the present SDP Lead at IEEE fisat SB?"
+            ],
+            "responses": [
+                "SB Lead current is The SDP IEEE of Alan Vinoy. fisat",
+                "The current SDP Lead of IEEE fisat SB is Alan Vinoy."
+            ]
+        },
+        {
+            "tag": "chair_computer_society_ieee_fisat_sb",
+            "patterns": [
+                "I need to know who the chair of the IEEE fisat SB Computer Society is as of now.",
+                "Who is CS chair",
+                "the Society now? acting Computer SB fisat IEEE is Who the of right chair",
+                "SB IEEE of chair the Computer the know who I as of Society need to now. is fisat",
+                "Name the current chair of the IEEE fisat SB Computer Society?",
+                "Can you tell me who holds the chair position for the IEEE fisat SB Computer Society right now?",
+                "is the Who CS chair",
+                "SB IEEE Society serving as the currently? the Computer fisat is chair Who of",
+                "the Do present? of fisat the chair SB know is who IEEE you Computer Society at",
+                "the right holds position Society Can me Computer you tell who the now? IEEE chair SB for fisat",
+                "Who's currently the chair of the IEEE fisat SB Computer Society?",
+                "Who is the acting chair of the IEEE fisat SB Computer Society right now?",
+                "Who is the current chair of IEEE fisat SB Computer Society?",
+                "is the role the chair current IEEE SB fisat Computer in the for Society? Who individual",
+                "chair name you the the Computer Could provide SB fisat current Society? IEEE of of the",
+                "Who is the present chair of the IEEE fisat SB Computer Society?",
+                "Could you provide the name of the current chair of the IEEE fisat SB Computer Society?",
+                "the currently chair Computer of IEEE fisat SB the Society? Who's",
+                "Computer SB chair of IEEE the current fisat Name the Society?",
+                "Do you know who the chair of the IEEE fisat SB Computer Society is at present?",
+                "Who is serving as the chair of the IEEE fisat SB Computer Society currently?",
+                "Who is the CS chair",
+                "Who chair fisat SB is the Society? current Computer of IEEE",
+                "Who chair is CS",
+                "Who is the current individual in the chair role for the IEEE fisat SB Computer Society?",
+                "the of SB present chair Society? the Who Computer is fisat IEEE"
+            ],
+            "responses": [
+                "The current chair of IEEE fisat SB Computer Society is Anjal P Dijo.",
+                "current IEEE chair Society The Computer SB P is Dijo. Anjal of fisat"
+            ]
+        },
+        {
+            "tag": "secretary_computer_society_ieee_fisat_sb",
+            "patterns": [
+                "Who is the present secretary of the IEEE fisat SB Computer Society?",
+                "Who is the CS secretary",
+                "Who CS is secretary",
+                "Can you tell me who holds the secretary position for the IEEE fisat SB Computer Society right now?",
+                "Who is the current individual in the secretary role for the IEEE fisat SB Computer Society?",
+                "of SB Society? the Computer current Name fisat the secretary IEEE",
+                "Computer of Society as who fisat IEEE is need now. secretary the the to know SB of I",
+                "Name the current secretary of the IEEE fisat SB Computer Society?",
+                "Who is the current secretary of IEEE fisat SB Computer Society?",
+                "present? know SB is who IEEE the of Society the you fisat at secretary Do Computer",
+                "Who is CS secretary",
+                "Who's currently the secretary of the IEEE fisat SB Computer Society?",
+                "Computer SB individual role fisat the the the in IEEE for is Who secretary current Society?",
+                "Who is serving as the secretary of the IEEE fisat SB Computer Society currently?",
+                "provide fisat you IEEE secretary Society? of the the name Could the SB of Computer current",
+                "Do you know who the secretary of the IEEE fisat SB Computer Society is at present?",
+                "is the fisat the SB of Computer secretary Who now? acting Society right IEEE",
+                "the SB secretary Who fisat currently? IEEE the as of Computer Society is serving",
+                "the is secretary CS Who",
+                "Could you provide the name of the current secretary of the IEEE fisat SB Computer Society?",
+                "I need to know who the secretary of the IEEE fisat SB Computer Society is as of now.",
+                "Who the IEEE of Computer secretary the fisat is present Society? SB",
+                "of Who's Society? secretary SB the currently IEEE Computer the fisat",
+                "Society right for me who the position you IEEE Can tell the holds secretary Computer SB now? fisat",
+                "Who is the acting secretary of the IEEE fisat SB Computer Society right now?",
+                "is IEEE fisat Who secretary SB the Society? of current Computer"
+            ],
+            "responses": [
+                "The current secretary of IEEE fisat SB Computer Society is Akhil Gireesh.",
+                "secretary IEEE fisat SB is Computer Society The Akhil current of Gireesh."
+            ]
+        },
+        {
+            "tag": "wic_computer_society_ieee_fisat_sb",
+            "patterns": [
+                "Women Who in computing is",
+                "of WIC IEEE SB serving the as currently? fisat is Computer the Who Society",
+                "Who's currently the WIC of the IEEE fisat SB Computer Society?",
+                "computing the Who in is Women",
+                "Who is the current WIC of IEEE fisat SB Computer Society?",
+                "Who is Women in computing",
+                "the fisat Society WIC to of now. IEEE as I Computer the of need is who know SB",
+                "present Computer is fisat IEEE WIC the Society? Who the SB of",
+                "Who is the acting WIC of the IEEE fisat SB Computer Society right now?",
+                "Who is serving as the WIC of the IEEE fisat SB Computer Society currently?",
+                "SB Computer current the the of fisat Society? WIC Name IEEE",
+                "Who is the Women in computing",
+                "Can you tell me who holds the WIC position for the IEEE fisat SB Computer Society right now?",
+                "Do you know who the WIC of the IEEE fisat SB Computer Society is at present?",
+                "Who is wic",
+                "Who is the current individual in the WIC role for the IEEE fisat SB Computer Society?",
+                "acting WIC Computer SB Society the the of is IEEE now? fisat Who right",
+                "Name the current WIC of the IEEE fisat SB Computer Society?",
+                "Who is the present WIC of the IEEE fisat SB Computer Society?",
+                "wic Who is",
+                "I need to know who the WIC of the IEEE fisat SB Computer Society is as of now.",
+                "the current of Who WIC SB Society? is Computer IEEE fisat",
+                "Who is wic the",
+                "holds right now? who SB you position Society fisat tell WIC IEEE Computer the for the Can me",
+                "at know who is Do the Computer IEEE the WIC you present? SB Society fisat of",
+                "individual for IEEE Society? current the Computer the SB WIC the fisat in role is Who",
+                "Could you provide the name of the current WIC of the IEEE fisat SB Computer Society?",
+                "the currently fisat Who's Society? of Computer the IEEE SB WIC",
+                "fisat SB provide IEEE the WIC the of you the Could of current Computer name Society?",
+                "Who is the wic"
+            ],
+            "responses": [
+                "SB The IEEE fisat is Ann Computer current Paul. Maria Society WIC of",
+                "The current WIC of IEEE fisat SB Computer Society is Ann Maria Paul."
+            ]
+        },
+        {
+            "tag": "current_chair_wie",
+            "patterns": [
+                "WIE chair the SB Who is the IEEE of acting fisat right now?",
+                "Could you provide the name of the current chair of the IEEE fisat SB WIE?",
+                "you chair present? fisat know SB who IEEE the is the WIE at of Do",
+                "the Who is chair wie",
+                "of SB chair Wie? current fisat IEEE Is Who the",
+                "the SB the WIE? currently IEEE Who's chair fisat of",
+                "Who is wie chair",
+                "fisat current the of of chair IEEE WIE? you the the SB Could name provide",
+                "Do you know who the chair of the IEEE fisat SB WIE is at present?",
+                "Who is serving as the chair of the IEEE fisat SB WIE currently?",
+                "Who is the current individual in the chair role for the IEEE fisat SB WIE?",
+                "is chair wie Who",
+                "the the IEEE SB currently? serving as Who chair is of WIE fisat",
+                "fisat SB chair Who present IEEE the is the WIE? of",
+                "Who is the present chair of the IEEE fisat SB WIE?",
+                "Who's currently the chair of the IEEE fisat SB WIE?",
+                "chair the WIE? of fisat current the SB Name IEEE",
+                "Who is the acting chair of the IEEE fisat SB WIE right now?",
+                "Can you tell me who holds the chair position for the IEEE fisat SB WIE right now?",
+                "Name the current chair of the IEEE fisat SB WIE?",
+                "need WIE of the chair of now. the I fisat to know IEEE SB as is who",
+                "I need to know who the chair of the IEEE fisat SB WIE is as of now.",
+                "Who is the wie chair",
+                "fisat the chair Who in the individual role the SB WIE? current IEEE is for",
+                "WIE chair tell me you fisat the the for SB right holds position now? who Can IEEE",
+                "Who Is the current chair of IEEE fisat SB Wie?"
+            ],
+            "responses": [
+                "The current chair of IEEE fisat SB WIE is Ann Mary Jojy.",
+                "Ann is SB Mary IEEE chair The fisat Jojy. of WIE current"
+            ]
+        },
+        {
+            "tag": "current_secretary_wie",
+            "patterns": [
+                "Who is serving as the secretary of the IEEE fisat SB WIE currently?",
+                "Who is the current individual in the secretary role for the IEEE fisat SB WIE?",
+                "Could you provide the name of the current secretary of the IEEE fisat SB WIE?",
+                "Who is the acting secretary of the IEEE fisat SB WIE right now?",
+                "at IEEE is fisat WIE the who secretary the Do present? know you of SB",
+                "secretary Who in the is the current SB WIE? fisat the role individual IEEE for",
+                "Who Is the current secretary of IEEE fisat SB Wie?",
+                "the secretary WIE? of Who fisat IEEE the SB is present",
+                "secretary current Is the Who SB of Wie? fisat IEEE",
+                "SB Could name IEEE secretary current the provide of the the of fisat you WIE?",
+                "secretary Name fisat the of current SB WIE? the IEEE",
+                "I need to know who the secretary of the IEEE fisat SB WIE is as of now.",
+                "Who's currently the secretary of the IEEE fisat SB WIE?",
+                "of Who IEEE currently? is as fisat secretary the SB WIE serving the",
+                "who fisat of I now. as to know of the need IEEE is SB the WIE secretary",
+                "wie is Who secretary",
+                "Do you know who the secretary of the IEEE fisat SB WIE is at present?",
+                "Can you tell me who holds the secretary position for the IEEE fisat SB WIE right now?",
+                "Name the current secretary of the IEEE fisat SB WIE?",
+                "Who is the present secretary of the IEEE fisat SB WIE?",
+                "the SB fisat secretary Who's IEEE WIE? of currently the",
+                "Who is the wie secretary",
+                "the right position now? who the SB holds secretary you tell WIE IEEE Can me fisat for",
+                "the the now? SB WIE IEEE is secretary fisat acting of right Who",
+                "wie the is secretary Who",
+                "Who is wie secretary"
+            ],
+            "responses": [
+                "Harish. fisat is of IEEE secretary SB The WIE Anjali current",
+                "The current secretary of IEEE fisat SB WIE is Anjali Harish."
+            ]
+        },
+        {
+            "tag": "current_asst_program_tech_coord",
+            "patterns": [
+                "Can you tell me who holds the Assistant Program/Technical Coordinator position for IEEE fisat SB right now?",
+                "Who is the assistant technical coordinator",
+                "Who's currently the Assistant Program/Technical Coordinator of IEEE fisat SB?",
+                "SB? is fisat of Who Coordinator Program/Technical present IEEE the Assistant",
+                "Name the current Assistant Program/Technical Coordinator of IEEE fisat SB?",
+                "Who is wie assistant technical coordinator",
+                "SB Program/Technical fisat right acting Assistant of Who Coordinator IEEE the is now?",
+                "assistant the is coordinator technical Who",
+                "Who is the assistant program/technical coordinator",
+                "SB? of Assistant current fisat Program/Technical IEEE Name the Coordinator",
+                "is Who as SB Coordinator serving currently? the of fisat Program/Technical IEEE Assistant",
+                "coordinator Who wie assistant program/technical is",
+                "Who is the current Assistant program/technical coordinator of IEEE fisat SB?",
+                "Who is the present Assistant Program/Technical Coordinator of IEEE fisat SB?",
+                "IEEE the Coordinator Program/Technical of currently SB? Assistant Who's fisat",
+                "Who is serving as the Assistant Program/Technical Coordinator of IEEE fisat SB currently?",
+                "coordinator fisat Who SB? IEEE the program/technical Assistant is current of",
+                "Who is wie assistant program/technical coordinator",
+                "at you Coordinator present? the is Assistant who Do Program/Technical IEEE of fisat know SB",
+                "in IEEE the is individual current fisat SB? Who Program/Technical Coordinator Assistant the for role",
+                "Who is the acting Assistant Program/Technical Coordinator of IEEE fisat SB right now?",
+                "Could you provide the name of the current Assistant Program/Technical Coordinator of IEEE fisat SB?",
+                "Who coordinator is wie assistant technical",
+                "I need to know who the Assistant Program/Technical Coordinator of IEEE fisat SB is as of now.",
+                "Do you know who the Assistant Program/Technical Coordinator of IEEE fisat SB is at present?",
+                "fisat the Could Assistant current of of provide Program/Technical you name IEEE Coordinator SB? the",
+                "right Program/Technical Assistant me position IEEE holds SB tell Coordinator the who Can fisat you now? for",
+                "now. Coordinator as to of need the SB Program/Technical fisat who of I know Assistant is IEEE",
+                "Who is the current individual in the Assistant Program/Technical Coordinator role for IEEE fisat SB?",
+                "assistant coordinator the is Who program/technical"
+            ],
+            "responses": [
+                "A Kaipulli. R Program/Technical Midhun SB are Coordinators IEEE fisat and current Assistant The Neha of",
+                "The current Assistant Program/Technical Coordinators of IEEE fisat SB are Neha A R and Midhun Kaipulli."
+            ]
+        },
+        {
+            "tag": "current_content_team",
+            "patterns": [
+                "IEEE fisat Could team for list the members content of SB? the current you",
+                "current SB? team content fisat the Who of constitutes IEEE",
+                "Could you list the members of the current content team for IEEE fisat SB?",
+                "Who are the individuals on the current content team of IEEE fisat SB?",
+                "members Can of names you the of team current IEEE for the fisat provide SB? content the",
+                "the the at members content SB? team fisat of current IEEE Name",
+                "need members IEEE at the current who the SB content of I fisat know team to are.",
+                "Who are the members of the current content team fisat SB?",
+                "Can you provide the names of the members of the current content team for IEEE fisat SB?",
+                "I need to know who the members of the current content team at IEEE fisat SB are.",
+                "Who constitutes the current content team of IEEE fisat SB?",
+                "current Who fisat on content of is the SB? team IEEE",
+                "Who makes up the content team at IEEE fisat SB right now?",
+                "IEEE SB at the fisat makes now? team right content Who up",
+                "Who is involved in the current content team of IEEE fisat SB?",
+                "SB? of content IEEE current the fisat team involved Who is in",
+                "Who content of are part team",
+                "the who of members at the you SB know content fisat are? team IEEE Do current",
+                "Do you know who the members of the current content team at IEEE fisat SB are?",
+                "content of Who the team are current fisat the members SB?",
+                "on content are the current fisat team IEEE Who of SB? the individuals",
+                "Name the members of the current content team at IEEE fisat SB?",
+                "Who are part of content team",
+                "Who are part of the content team",
+                "Who is on the current content team of IEEE fisat SB?",
+                "team part content of are Who the"
+            ],
+            "responses": [
+                "The members of the current content team of IEEE fisat SB are Sreya Sreejith Nair,Poorvaja M Sooraj and Kavya Sooraj.",
+                "team Sooraj. M Sreya Kavya are SB content IEEE The members and current of the Sooraj fisat Nair,Poorvaja Sreejith of"
+            ]
+        },
+        {
+            "tag": "current_web_handler",
+            "patterns": [
+                "Who are part of web team",
+                "Who handles the web in IEEE fisat SB?",
+                "Who is currently responsible for the web aspect of IEEE fisat SB?",
+                "the tell in for tasks SB? of Can is me web-related IEEE fisat you who charge",
+                "Who oversees web functions at IEEE fisat SB?",
+                "Do handles IEEE you SB? who the duties for know fisat web",
+                "the manages fisat web at SB? Who activities IEEE",
+                "of are Who team the web part",
+                "I need to know who manages the web at IEEE fisat SB.",
+                "right web-related for Who SB tasks IEEE the the is fisat handling now? person",
+                "Can you tell me who is in charge of the web-related tasks for IEEE fisat SB?",
+                "SB? at management is IEEE for web fisat responsible Who",
+                "after at the SB? web responsibilities person IEEE the fisat Name who looks",
+                "web handles SB? IEEE Who the in fisat",
+                "at web fisat oversees Who IEEE functions SB?",
+                "Could you provide the name of the person handling web matters for IEEE fisat SB?",
+                "Who of are team web part",
+                "aspect fisat IEEE of for responsible SB? the is currently web Who",
+                "Who is the person handling the web-related tasks for IEEE fisat SB right now?",
+                "the fisat you for handling matters web Could SB? of provide name the person IEEE",
+                "Name the person who looks after the web responsibilities at IEEE fisat SB?",
+                "Who is responsible for web management at IEEE fisat SB?",
+                "Who are part of the web team",
+                "IEEE SB. need fisat know who to manages the at web I",
+                "Who manages the web activities at IEEE fisat SB?",
+                "Do you know who handles the web duties for IEEE fisat SB?"
+            ],
+            "responses": [
+                "person web Advaith the Manoj Menon. is and fisat K who Abinav for G The SB handles IEEE",
+                "The person who handles the web for IEEE fisat SB is Abinav K Manoj and Advaith G Menon."
+            ]
+        },
+        {
+            "tag": "current_design_team",
+            "patterns": [
+                "Do you know who the members of the design team at IEEE fisat SB are?",
+                "Could you list the members of the design team for IEEE fisat SB?",
+                "I need to know who the members of the design team at IEEE fisat SB are.",
+                "Can you provide the names of the members of the design team for IEEE fisat SB?",
+                "Who are the individuals on the design team of IEEE fisat SB?",
+                "Who are part of web team",
+                "IEEE individuals are fisat on SB? team design the the of Who",
+                "Who is on the design team at IEEE fisat SB?",
+                "Who fisat design SB? constitutes at IEEE the team",
+                "Who is involved in the design team of IEEE fisat SB?",
+                "Who are the design team members of fisat SB?",
+                "involved SB? IEEE Who design of the team in is fisat",
+                "is at design IEEE on SB? the fisat team Who",
+                "fisat are. the know to team SB of design IEEE who members the need I at",
+                "Who makes up the design team at IEEE fisat SB right now?",
+                "the fisat IEEE Who up at makes team design right now? SB",
+                "of are part web Who team",
+                "Could SB? list IEEE fisat you team design members the for the of",
+                "who the fisat are? the at team know of design members SB IEEE you Do",
+                "team Who members are of SB? fisat the design",
+                "Who constitutes the design team at IEEE fisat SB?",
+                "SB? team Can members names design the you provide of IEEE fisat of for the the",
+                "Who are part of the web team",
+                "Who part the team are of web",
+                "Name the design team members of IEEE fisat SB?",
+                "SB? design the of team members fisat Name IEEE"
+            ],
+            "responses": [
+                "The design team members of IEEE fisat SB are Rohan D Chacko and K R Goutham Krishna.",
+                "team of are IEEE The K members fisat Rohan design SB Goutham Chacko D Krishna. R and"
+            ]
+        },
+        {
+            "tag": "past_chair_2022_2023",
+            "patterns": [
+                "Who held the chair role at IEEE fisat SB for the 2022-2023 year?",
+                "Who was the acting chair of IEEE fisat SB during 2022-2023?",
+                "chair 2022-2023? SB the IEEE was fisat in Who of",
+                "in of fisat chair academic year? IEEE SB the Who as the 2022-2023 served",
+                "was 2022-2023 IEEE Who in fisat period? the chair SB the",
+                "Do was fisat who you SB in 2022-2023? the IEEE of chair know",
+                "of name you the Could of provide 2022-2023? chair fisat year the IEEE for the SB",
+                "during chair position SB who the Can me tell IEEE held fisat at you 2022-2023?",
+                "Name the chair of IEEE fisat SB for the 2022-2023 term?",
+                "Who was the chair of IEEE fisat SB in 2022-2023?",
+                "SB term? fisat of 2022-2023 Name the the IEEE for chair",
+                "was during of in IEEE as 2022-2023? charge chair SB fisat Who",
+                "Who served as the chair of IEEE fisat SB in the 2022-2023 academic year?",
+                "Who was in charge of IEEE fisat SB as chair during 2022-2023?",
+                "Do you know who the chair of IEEE fisat SB was in 2022-2023?",
+                "Can you tell me who held the chair position at IEEE fisat SB during 2022-2023?",
+                "I need to know who was the chair of IEEE fisat SB in 2022-2023.",
+                "role the fisat held 2022-2023 chair year? Who for SB the at IEEE",
+                "chair was fisat in SB who need the 2022-2023. I to IEEE of know",
+                "Who was the IEEE fisat SB chair in the 2022-2023 period?",
+                "Could you provide the name of the chair of IEEE fisat SB for the year 2022-2023?",
+                "chair acting fisat IEEE the of Who SB during 2022-2023? was"
+            ],
+            "responses": [
+                "IEEE The in of 2022-2023 Thomas. George SB Rohith was fisat chair",
+                "The chair of IEEE fisat SB in 2022-2023 was Rohith George Thomas."
+            ]
+        },
+        {
+            "tag": "past_chair_2023_2024",
+            "patterns": [
+                "Can SB 2023-2024? fisat position during the who IEEE at you chair tell me held",
+                "Who was the IEEE fisat SB chair in the 2023-2024 period?",
+                "Who was the chair of IEEE fisat SB in 2023-2024?",
+                "chair 2023-2024? Do you the in SB of was who know fisat IEEE",
+                "2023-2024 IEEE role the at SB year? chair held for Who fisat the",
+                "Name the chair of IEEE fisat SB for the 2023-2024 term?",
+                "for 2023-2024? fisat the you of Could SB year chair the provide name IEEE of the",
+                "Who the as academic chair fisat the SB served of year? in 2023-2023 IEEE",
+                "Who was in charge of IEEE fisat SB as chair during 2023-2024?",
+                "Who served as the chair of IEEE fisat SB in the 2023-2023 academic year?",
+                "Who was last year chair?",
+                "last chair? Who year was",
+                "in I SB of know who to the fisat 2023-2024. need chair IEEE was",
+                "I need to know who was the chair of IEEE fisat SB in 2023-2024.",
+                "Can you tell me who held the chair position at IEEE fisat SB during 2023-2024?",
+                "Do you know who the chair of IEEE fisat SB was in 2023-2024?",
+                "the term? IEEE SB chair the fisat for Name 2023-2024 of",
+                "Who fisat period? the was the in 2023-2024 chair SB IEEE",
+                "of Who 2023-2024? fisat SB the in chair was IEEE",
+                "was SB in IEEE of 2023-2024? Who fisat during charge chair as",
+                "Could you provide the name of the chair of IEEE fisat SB for the year 2023-2024?",
+                "Who was the acting chair of IEEE fisat SB during 2023-2024?",
+                "Who held the chair role at IEEE fisat SB for the 2023-2024 year?",
+                "during 2023-2024? chair SB the fisat of was Who acting IEEE"
+            ],
+            "responses": [
+                "The chair of IEEE fisat SB in 2023-2024 was Samanuai A.",
+                "IEEE The in Samanuai was A. 2023-2024 of chair SB fisat"
+            ]
+        },
+        {
+            "tag": "current_chair_signal_processing",
+            "patterns": [
+                "the tell SB who chair Society me IEEE Signal you the position Can for Processing now? right FISAT holds",
+                "Processing Name Signal the current of SB chair Society? IEEE FISAT the",
+                "Could you provide the name of the current chair of the IEEE FISAT SB Signal Processing Society?",
+                "Who's currently the chair of the IEEE FISAT SB Signal Processing Society?",
+                "SB FISAT Processing chair Society? is IEEE the Who of Signal current",
+                "Who sps chair is the",
+                "I need to know who the chair of the IEEE FISAT SB Signal Processing Society is as of now.",
+                "Signal as FISAT now. the Society need is of chair SB the know who I Processing to IEEE of",
+                "Who is the present chair of the IEEE FISAT SB Signal Processing Society?",
+                "of now? the FISAT SB Society Signal IEEE right Who acting chair the Processing is",
+                "current chair FISAT in for Society? the IEEE SB role the Signal individual Who the Processing is",
+                "Name the current chair of the IEEE FISAT SB Signal Processing Society?",
+                "Processing the Who as the SB serving chair is of IEEE currently? Society Signal FISAT",
+                "sps Who chair is",
+                "Can you tell me who holds the chair position for the IEEE FISAT SB Signal Processing Society right now?",
+                "Signal FISAT of you Could Society? SB the the provide of chair the Processing IEEE name current",
+                "Do you know who the chair of the IEEE FISAT SB Signal Processing Society is at present?",
+                "Who is the acting chair of the IEEE FISAT SB Signal Processing Society right now?",
+                "Who is the current individual in the chair role for the IEEE FISAT SB Signal Processing Society?",
+                "chair Signal Processing Who of SB FISAT Society? the is present IEEE the",
+                "Processing IEEE FISAT chair the SB Society? of Signal currently the Who's",
+                "Who is serving as the chair of the IEEE FISAT SB Signal Processing Society currently?",
+                "Who is the sps chair",
+                "Who is the current chair of IEEE FISAT SB Signal Processing Society?",
+                "Who is sps chair",
+                "IEEE the FISAT who of is the Signal Do SB chair Society you know Processing present? at"
+            ],
+            "responses": [
+                "Kurien. is Signal IEEE chair The SB Gregory of Processing current Society FISAT",
+                "The current chair of IEEE FISAT SB Signal Processing Society is Gregory Kurien."
+            ]
+        },
+        {
+            "tag": "current_wic_signal_processing",
+            "patterns": [
+                "FISAT is Processing WISP current SB of the Who Society? Signal IEEE",
+                "Name the current WISP of the IEEE FISAT SB Signal Processing Society?",
+                "Who is the present WISP of the IEEE FISAT SB Signal Processing Society?",
+                "is Who sps wisp",
+                "Do you know who the WISP of the IEEE FISAT SB Signal Processing Society is at present?",
+                "current the Society? of SB Signal IEEE WISP the FISAT Name Processing",
+                "IEEE Processing Signal WISP the FISAT of present Who SB the Society? is",
+                "present? Do Processing who WISP you SB Signal FISAT the know of the Society at is IEEE",
+                "Who is the current WISP of IEEE FISAT SB Signal Processing Society?",
+                "Who is serving as the WISP of the IEEE FISAT SB Signal Processing Society currently?",
+                "Who in Society? Signal for FISAT SB is WISP role IEEE Processing the the individual the current",
+                "Who is the sps wisp",
+                "Who is the acting WISP of the IEEE FISAT SB Signal Processing Society right now?",
+                "Who acting the WISP Processing SB Society Signal right the now? is of IEEE FISAT",
+                "WISP position the IEEE holds Society FISAT right Signal tell who you now? Can me the SB Processing for",
+                "Could you provide the name of the current WISP of the IEEE FISAT SB Signal Processing Society?",
+                "I need to know who the WISP of the IEEE FISAT SB Signal Processing Society is as of now.",
+                "you of current Signal IEEE of SB Society? the Could provide the the name WISP FISAT Processing",
+                "Who's currently the WISP of the IEEE FISAT SB Signal Processing Society?",
+                "Who is the current individual in the WISP role for the IEEE FISAT SB Signal Processing Society?",
+                "Who IEEE the is as serving Processing FISAT SB the currently? of WISP Society Signal",
+                "wisp is Who sps the",
+                "to FISAT know as WISP Society the of Signal need SB of I is now. IEEE who the Processing",
+                "of Signal the IEEE Processing the currently Society? Who's FISAT SB WISP",
+                "Who processing in women is signal",
+                "Who is women in signal processing",
+                "Can you tell me who holds the WISP position for the IEEE FISAT SB Signal Processing Society right now?",
+                "Who is sps wisp"
+            ],
+            "responses": [
+                "The current WIC of IEEE FISAT SB Signal Processing Society is Shivani Krishnan.",
+                "Shivani IEEE is Krishnan. FISAT SB WIC The Processing Signal Society of current"
+            ]
+        },
+        {
+            "tag": "current_secretary_signal_processing",
+            "patterns": [
+                "you position me right for the holds Processing Society Can IEEE Signal now? SB secretary who tell FISAT the",
+                "the is Society Who SB IEEE right secretary FISAT the acting of Processing Signal now?",
+                "Who is the current secretary of IEEE FISAT SB Signal Processing Society?",
+                "Who is the current individual in the secretary role for the IEEE FISAT SB Signal Processing Society?",
+                "I need to know who the secretary of the IEEE FISAT SB Signal Processing Society is as of now.",
+                "is the SB secretary Processing Society serving Signal FISAT as IEEE Who the currently? of",
+                "Who secretary is sps",
+                "Who is serving as the secretary of the IEEE FISAT SB Signal Processing Society currently?",
+                "Who is the present secretary of the IEEE FISAT SB Signal Processing Society?",
+                "Who is sps secretary",
+                "Processing Signal who to need FISAT is I secretary IEEE Society of now. know as the the SB of",
+                "FISAT is role individual secretary Who the SB IEEE Signal Processing for the the in Society? current",
+                "Signal secretary the of Processing present FISAT SB IEEE Who Society? is the",
+                "Who is the acting secretary of the IEEE FISAT SB Signal Processing Society right now?",
+                "Can you tell me who holds the secretary position for the IEEE FISAT SB Signal Processing Society right now?",
+                "Who is the sps secretary",
+                "Who's currently the secretary of the IEEE FISAT SB Signal Processing Society?",
+                "Signal current Who SB of secretary is IEEE FISAT the Processing Society?",
+                "the secretary SB FISAT the the Could Society? name you of IEEE of provide Processing current Signal",
+                "Name the current secretary of the IEEE FISAT SB Signal Processing Society?",
+                "sps secretary Who the is",
+                "Society? Processing Signal SB Who's of secretary currently the FISAT the IEEE",
+                "Do you know who the secretary of the IEEE FISAT SB Signal Processing Society is at present?",
+                "Could you provide the name of the current secretary of the IEEE FISAT SB Signal Processing Society?",
+                "of secretary Name IEEE SB the Processing Society? FISAT current Signal the",
+                "Do FISAT is who Society Processing know IEEE SB present? the you secretary Signal of the at"
+            ],
+            "responses": [
+                "The current secretary of IEEE FISAT SB Signal Processing Society is V M Ganashyam.",
+                "The Ganashyam. current Signal IEEE of secretary FISAT M SB Processing is V Society"
+            ]
+        },
+        {
+            "tag": "current_chair_robotics_automation",
+            "patterns": [
+                "Do you know who the chair of the IEEE FISAT SB Robotics and Automation Society is at present?",
+                "Automation SB in the is the Who FISAT current IEEE role Robotics for chair the individual and Society?",
+                "Who is the current chair of IEEE FISAT SB Robotics and Automation Society?",
+                "Who is the present chair of the IEEE FISAT SB Robotics and Automation Society?",
+                "Who is the acting chair of the IEEE FISAT SB Robotics and Automation Society right now?",
+                "is know the Society Do Automation Robotics present? at FISAT the of SB and chair who IEEE you",
+                "Automation as know FISAT need Society of is SB of now. and who Robotics I IEEE the to chair the",
+                "Could you provide the name of the current chair of the IEEE FISAT SB Robotics and Automation Society?",
+                "IEEE the Robotics of FISAT chair the Society Who is SB and currently? as Automation serving",
+                "of FISAT the is the IEEE Automation and present Society? SB Who chair Robotics",
+                "FISAT Society? is current Automation chair SB Robotics Who the of and IEEE",
+                "Who is serving as the chair of the IEEE FISAT SB Robotics and Automation Society currently?",
+                "Automation the Society the right SB Who now? FISAT Robotics and IEEE acting chair of is",
+                "IEEE current chair SB and Could Society? name Automation you Robotics the of provide the FISAT the of",
+                "Who is the ras chair",
+                "Who is ras chair",
+                "Can you tell me who holds the chair position for the IEEE FISAT SB Robotics and Automation Society right now?",
+                "the SB Society? Name chair Automation IEEE current Robotics the of FISAT and",
+                "Name the current chair of the IEEE FISAT SB Robotics and Automation Society?",
+                "I need to know who the chair of the IEEE FISAT SB Robotics and Automation Society is as of now.",
+                "Society? Automation of and SB the the FISAT IEEE Who's Robotics currently chair",
+                "is chair ras Who",
+                "Who ras is the chair",
+                "the SB me Automation who and right chair Can holds FISAT Society you tell Robotics for position now? the IEEE",
+                "Who's currently the chair of the IEEE FISAT SB Robotics and Automation Society?",
+                "Who is the current individual in the chair role for the IEEE FISAT SB Robotics and Automation Society?"
+            ],
+            "responses": [
+                "SB Thomas. chair and current The is IEEE Joseph Society of Robotics Automation FISAT",
+                "The current chair of IEEE FISAT SB Robotics and Automation Society is Joseph Thomas."
+            ]
+        },
+        {
+            "tag": "current_secretary_robotics_automation",
+            "patterns": [
+                "FISAT of Robotics SB Who's Automation Society? and secretary IEEE the currently the",
+                "the is of Robotics IEEE and FISAT present Who secretary Society? SB the Automation",
+                "Robotics the SB of secretary the and IEEE now? Who acting is Society FISAT Automation right",
+                "who the position IEEE secretary now? tell right Automation me Can FISAT Robotics holds and Society you for the SB",
+                "Who's currently the secretary of the IEEE FISAT SB Robotics and Automation Society?",
+                "Do you know who the secretary of the IEEE FISAT SB Robotics and Automation Society is at present?",
+                "individual Society? SB role Automation the the FISAT is Robotics secretary the and IEEE current in for Who",
+                "of you the of current Could and name Robotics secretary provide the Society? FISAT the IEEE Automation SB",
+                "Who is the present secretary of the IEEE FISAT SB Robotics and Automation Society?",
+                "Can you tell me who holds the secretary position for the IEEE FISAT SB Robotics and Automation Society right now?",
+                "Who is the current individual in the secretary role for the IEEE FISAT SB Robotics and Automation Society?",
+                "of IEEE and the Automation serving SB secretary the is FISAT Society as Robotics currently? Who",
+                "Name the current secretary of the IEEE FISAT SB Robotics and Automation Society?",
+                "ras is the secretary Who",
+                "Who is the acting secretary of the IEEE FISAT SB Robotics and Automation Society right now?",
+                "I need to know who the secretary of the IEEE FISAT SB Robotics and Automation Society is as of now.",
+                "Automation and secretary IEEE SB Name Robotics the FISAT current the of Society?",
+                "Who is serving as the secretary of the IEEE FISAT SB Robotics and Automation Society currently?",
+                "Who is the current secretary of IEEE FISAT SB Robotics and Automation Society?",
+                "Do the Society know you secretary FISAT present? who of Automation SB is the and at IEEE Robotics",
+                "Who is the ras secretary",
+                "FISAT secretary Who and Society? is Automation Robotics SB current the of IEEE",
+                "Could you provide the name of the current secretary of the IEEE FISAT SB Robotics and Automation Society?",
+                "who as Society the to and the secretary of IEEE FISAT of now. is Robotics Automation need I SB know",
+                "ras secretary Who is",
+                "Who is ras secretary"
+            ],
+            "responses": [
+                "secretary The FISAT Robotics V V. and of IEEE Society is SB Krishna Automation current Athul",
+                "The current secretary of IEEE FISAT SB Robotics and Automation Society is Athul Krishna V V."
+            ]
+        },
+        {
+            "tag": "current_wir_robotics_automation",
+            "patterns": [
+                "the for FISAT is IEEE and in current role WIR the Automation Society? the SB Who individual Robotics",
+                "Who is the women in robotics",
+                "Name the current WIR of the IEEE FISAT SB Robotics and Automation Society?",
+                "Can you tell me who holds the WIR position for the IEEE FISAT SB Robotics and Automation Society right now?",
+                "the I Society of to need who and the SB FISAT WIR Robotics IEEE now. know of as is Automation",
+                "Who is the present WIR of the IEEE FISAT SB Robotics and Automation Society?",
+                "I need to know who the WIR of the IEEE FISAT SB Robotics and Automation Society is as of now.",
+                "Who's currently the WIR of the IEEE FISAT SB Robotics and Automation Society?",
+                "and Automation know WIR who FISAT IEEE Do at you Robotics Society present? the the is of SB",
+                "Who is the acting WIR of the IEEE FISAT SB Robotics and Automation Society right now?",
+                "Who ras is wir",
+                "Who robotics women is the in",
+                "Do you know who the WIR of the IEEE FISAT SB Robotics and Automation Society is at present?",
+                "Could you provide the name of the current WIR of the IEEE FISAT SB Robotics and Automation Society?",
+                "the IEEE Society? of FISAT and current Who SB is Automation WIR Robotics",
+                "Who is ras wir",
+                "the SB and IEEE FISAT WIR right Robotics is now? acting the Automation Society Who of",
+                "Who is the current WIR of IEEE FISAT SB Robotics and Automation Society?",
+                "the and Society? name FISAT of current IEEE the Robotics provide you SB Automation Could the WIR of",
+                "FISAT the present is Who IEEE Society? and Robotics Automation WIR the SB of",
+                "Who is the current individual in the WIR role for the IEEE FISAT SB Robotics and Automation Society?",
+                "Who is serving as the WIR of the IEEE FISAT SB Robotics and Automation Society currently?",
+                "and Name Society? the FISAT WIR current of the SB Robotics Automation IEEE",
+                "SB position Society the tell Automation Robotics WIR IEEE FISAT Can and for me right the holds now? who you",
+                "WIR is serving Society and IEEE the the as Robotics FISAT Who SB Automation currently? of",
+                "Who's IEEE Automation of Robotics and SB currently Society? the FISAT WIR the"
+            ],
+            "responses": [
+                "Asiya O and Robotics Automation Jannah SB of V. The WIR current Society FISAT IEEE is",
+                "The current WIR of IEEE FISAT SB Robotics and Automation Society is Asiya Jannah O V."
+            ]
+        },
+        {
+            "tag": "current_chair_pes",
+            "patterns": [
+                "Who is serving as the chair of the IEEE FISAT SB PES currently?",
+                "Can you tell me who holds the chair position for the IEEE FISAT SB PES right now?",
+                "of PES? SB FISAT the current IEEE Name the chair",
+                "you name of SB chair Could provide of the the the current IEEE FISAT PES?",
+                "know chair the you present? at the is IEEE FISAT SB who Do PES of",
+                "Who is the pes chair",
+                "for SB in PES? is chair Who IEEE the FISAT the current role the individual",
+                "Could you provide the name of the current chair of the IEEE FISAT SB PES?",
+                "Do you know who the chair of the IEEE FISAT SB PES is at present?",
+                "I need to know who the chair of the IEEE FISAT SB PES is as of now.",
+                "the the PES of FISAT IEEE chair serving Who is as currently? SB",
+                "is IEEE to of the as need I of chair now. know PES FISAT SB the who",
+                "chair Who is pes",
+                "Who is the acting chair of the IEEE FISAT SB PES right now?",
+                "Who is the current individual in the chair role for the IEEE FISAT SB PES?",
+                "chair currently Who's IEEE the PES? FISAT SB of the",
+                "pes Who is the chair",
+                "Who is the current chair of IEEE FISAT SB PES?",
+                "IEEE right FISAT holds position for chair now? Can tell the SB you who PES the me",
+                "Name the current chair of the IEEE FISAT SB PES?",
+                "Who's currently the chair of the IEEE FISAT SB PES?",
+                "SB PES? of present FISAT is Who chair the IEEE the",
+                "Who is the present chair of the IEEE FISAT SB PES?",
+                "PES? is SB chair FISAT current of the Who IEEE",
+                "Who is pes chair",
+                "right Who acting the the now? FISAT IEEE of chair is PES SB"
+            ],
+            "responses": [
+                "SB chair current Jos. PES is IEEE of FISAT The Jilha",
+                "The current chair of IEEE FISAT SB PES is Jilha Jos."
+            ]
+        },
+        {
+            "tag": "current_secretary_pes",
+            "patterns": [
+                "Who is pes secretary",
+                "Who is the acting secretary of the IEEE FISAT SB PES right now?",
+                "the Who PES is IEEE acting SB now? of secretary FISAT the right",
+                "IEEE of the secretary present? who know the Do PES at you FISAT is SB",
+                "PES SB holds IEEE who the for position now? right you FISAT secretary me Can the tell",
+                "Who is serving as the secretary of the IEEE FISAT SB PES currently?",
+                "Who is the present secretary of the IEEE FISAT SB PES?",
+                "FISAT of secretary PES? IEEE SB the the Name current",
+                "FISAT is SB Who PES the IEEE the of secretary as serving currently?",
+                "Who is the pes secretary",
+                "secretary IEEE the of Who PES? is the FISAT present SB",
+                "of PES? the FISAT SB secretary Who's the IEEE currently",
+                "is FISAT the secretary current Who SB of PES? IEEE",
+                "pes is secretary the Who",
+                "Who is the current individual in the secretary role for the IEEE FISAT SB PES?",
+                "now. who I FISAT know of SB of secretary the need is the IEEE PES as to",
+                "secretary pes is Who",
+                "Could you provide the name of the current secretary of the IEEE FISAT SB PES?",
+                "FISAT the provide name current the PES? secretary of you IEEE Could SB of the",
+                "Who's currently the secretary of the IEEE FISAT SB PES?",
+                "Do you know who the secretary of the IEEE FISAT SB PES is at present?",
+                "Who is the current secretary of IEEE FISAT SB PES?",
+                "IEEE secretary individual the in Who role FISAT is the the SB current PES? for",
+                "Can you tell me who holds the secretary position for the IEEE FISAT SB PES right now?",
+                "Name the current secretary of the IEEE FISAT SB PES?",
+                "I need to know who the secretary of the IEEE FISAT SB PES is as of now."
+            ],
+            "responses": [
+                "PES K The current FISAT is S. of SB Aashna secretary IEEE",
+                "The current secretary of IEEE FISAT SB PES is Aashna K S."
+            ]
+        },
+        {
+            "tag": "current_wip_pes",
+            "patterns": [
+                "individual Who PES? the for the FISAT WIP in current SB the IEEE role is",
+                "Who is the pes wip",
+                "Who is the current individual in the WIP role for the IEEE FISAT SB PES?",
+                "is the wip pes Who",
+                "Who is serving as the WIP of the IEEE FISAT SB PES currently?",
+                "now? position SB right WIP me IEEE the Can FISAT PES for tell holds who the you",
+                "Do WIP at know IEEE is SB the PES FISAT the who you present? of",
+                "Who's currently the WIP of the IEEE FISAT SB PES?",
+                "Who is the current WIP of IEEE FISAT SB PES?",
+                "of is IEEE SB PES serving currently? WIP FISAT the Who the as",
+                "Who is the acting WIP of the IEEE FISAT SB PES right now?",
+                "Do you know who the WIP of the IEEE FISAT SB PES is at present?",
+                "Who is pes wip",
+                "Could you provide the name of the current WIP of the IEEE FISAT SB PES?",
+                "Name the current WIP of the IEEE FISAT SB PES?",
+                "the WIP right FISAT is of IEEE PES the now? SB Who acting",
+                "Can you tell me who holds the WIP position for the IEEE FISAT SB PES right now?",
+                "is present the SB PES? of FISAT Who IEEE WIP the",
+                "the SB FISAT WIP Name the current PES? IEEE of",
+                "I need to know who the WIP of the IEEE FISAT SB PES is as of now.",
+                "SB currently IEEE the Who's the FISAT WIP of PES?",
+                "WIP FISAT Who SB IEEE current is PES? of the",
+                "know of PES IEEE is to I who FISAT the SB of now. need as WIP the",
+                "wip pes Who is",
+                "the of PES? SB the name of the Could you FISAT WIP current IEEE provide",
+                "Who is the present WIP of the IEEE FISAT SB PES?"
+            ],
+            "responses": [
+                "The current WIP of IEEE FISAT SB PES is Veena Pradeep.",
+                "SB current Pradeep. Veena WIP of FISAT PES IEEE The is"
+            ]
+        },
+        {
+            "tag": "current_chair_comsoc",
+            "patterns": [
+                "I need to know who the chair of the IEEE FISAT SB COMSOC is as of now.",
+                "Who is comsoc chair",
+                "COMSOC? SB current the the IEEE chair Name FISAT of",
+                "the Who is comsoc chair",
+                "chair is present the FISAT COMSOC? IEEE the of Who SB",
+                "provide Could SB IEEE you the name COMSOC? current chair of the FISAT of the",
+                "Who's currently the chair of the IEEE FISAT SB COMSOC?",
+                "FISAT COMSOC? SB IEEE the of current chair is Who",
+                "Do you know who the chair of the IEEE FISAT SB COMSOC is at present?",
+                "Who is the comsoc chair",
+                "Who is the current individual in the chair role for the IEEE FISAT SB COMSOC?",
+                "SB is as the need chair FISAT of IEEE now. I know COMSOC the of to who",
+                "Could you provide the name of the current chair of the IEEE FISAT SB COMSOC?",
+                "IEEE chair SB the of the FISAT COMSOC? currently Who's",
+                "Can you tell me who holds the chair position for the IEEE FISAT SB COMSOC right now?",
+                "Who is the current chair of IEEE FISAT SB COMSOC?",
+                "right who tell chair FISAT the holds IEEE Can for position COMSOC SB now? me you the",
+                "COMSOC? the the individual role is IEEE Who SB the for FISAT chair in current",
+                "Who is serving as the chair of the IEEE FISAT SB COMSOC currently?",
+                "Name the current chair of the IEEE FISAT SB COMSOC?",
+                "Who is the present chair of the IEEE FISAT SB COMSOC?",
+                "Who is the acting chair of the IEEE FISAT SB COMSOC right now?",
+                "SB the chair Who the serving currently? COMSOC FISAT of is as IEEE",
+                "SB COMSOC chair at is the of FISAT know present? Do the who IEEE you",
+                "now? SB of IEEE is the FISAT the chair right acting COMSOC Who"
+            ],
+            "responses": [
+                "The current chair of IEEE FISAT SB COMSOC is Aneeta Rose T R.",
+                "Rose SB is Aneeta COMSOC current T FISAT chair R. The IEEE of"
+            ]
+        },
+        {
+            "tag": "current_secretary_comsoc",
+            "patterns": [
+                "who need to of COMSOC I as SB now. the FISAT IEEE of secretary the know is",
+                "Could you provide the name of the current secretary of the IEEE FISAT SB COMSOC?",
+                "Who is the present secretary of the IEEE FISAT SB COMSOC?",
+                "the SB currently FISAT IEEE Who's the secretary COMSOC? of",
+                "of the IEEE you Could FISAT name the COMSOC? SB of the secretary provide current",
+                "now? secretary is FISAT right the the SB acting COMSOC Who of IEEE",
+                "Who is the comsoc secretary",
+                "Who's currently the secretary of the IEEE FISAT SB COMSOC?",
+                "secretary comsoc is Who",
+                "I need to know who the secretary of the IEEE FISAT SB COMSOC is as of now.",
+                "Who is the current secretary of IEEE FISAT SB COMSOC?",
+                "Name the current secretary of the IEEE FISAT SB COMSOC?",
+                "Do you know who the secretary of the IEEE FISAT SB COMSOC is at present?",
+                "Who is the acting secretary of the IEEE FISAT SB COMSOC right now?",
+                "Who is the current individual in the secretary role for the IEEE FISAT SB COMSOC?",
+                "SB FISAT at know Do the who IEEE COMSOC of you the present? is secretary",
+                "Who FISAT IEEE current of is secretary SB the COMSOC?",
+                "SB IEEE present of the COMSOC? Who is the secretary FISAT",
+                "the the Who secretary for is FISAT IEEE current COMSOC? SB individual in the role",
+                "Who is serving as the secretary of the IEEE FISAT SB COMSOC currently?",
+                "secretary COMSOC serving the IEEE SB Who FISAT as the is currently? of",
+                "Name secretary COMSOC? FISAT of the the current IEEE SB",
+                "the for FISAT holds position IEEE secretary SB tell you right who Can COMSOC the now? me",
+                "Who is comsoc secretary",
+                "Can you tell me who holds the secretary position for the IEEE FISAT SB COMSOC right now?",
+                "Who comsoc the is secretary"
+            ],
+            "responses": [
+                "FISAT secretary Ansa current The is of COMSOC Antoo. IEEE SB",
+                "The current secretary of IEEE FISAT SB COMSOC is Ansa Antoo."
+            ]
+        },
+        {
+            "tag": "current_wice_comsoc",
+            "patterns": [
+                "Do you know who the WICE of the IEEE FISAT SB COMSOC is at present?",
+                "FISAT IEEE Name COMSOC? current of the WICE SB the",
+                "Who is serving as the WICE of the IEEE FISAT SB COMSOC currently?",
+                "WICE the Who is",
+                "Could you provide the name of the current WICE of the IEEE FISAT SB COMSOC?",
+                "Who is the acting WICE of the IEEE FISAT SB COMSOC right now?",
+                "Name the current WICE of the IEEE FISAT SB COMSOC?",
+                "Who is the present WICE of the IEEE FISAT SB COMSOC?",
+                "WICE Who comsoc is",
+                "Who is comsoc WICE",
+                "Can you tell me who holds the WICE position for the IEEE FISAT SB COMSOC right now?",
+                "I need to know who the WICE of the IEEE FISAT SB COMSOC is as of now.",
+                "WICE COMSOC? is the Who of SB present the FISAT IEEE",
+                "Who is the WICE",
+                "who me for right now? COMSOC Can you the FISAT tell SB the IEEE WICE position holds",
+                "Who is the current individual in the WICE role for the IEEE FISAT SB COMSOC?",
+                "current the the provide the COMSOC? you Could of of name SB WICE FISAT IEEE",
+                "WICE SB of FISAT COMSOC the IEEE now? the acting is right Who",
+                "of currently the Who's WICE FISAT the SB COMSOC? IEEE",
+                "the comsoc is WICE Who",
+                "Who is the comsoc WICE",
+                "is the FISAT COMSOC? IEEE current Who SB of WICE",
+                "Who's currently the WICE of the IEEE FISAT SB COMSOC?",
+                "the present? IEEE the is FISAT WICE at COMSOC of Do know you SB who",
+                "current the COMSOC? is IEEE SB Who individual for in the the WICE role FISAT",
+                "FISAT the as Who currently? COMSOC is the serving IEEE of WICE SB",
+                "Who is the current WICE of IEEE FISAT SB COMSOC?",
+                "is SB I who the of as of COMSOC WICE IEEE need FISAT to the know now."
+            ],
+            "responses": [
+                "is of current FISAT The SB Swetha IEEE WICE Saju. COMSOC",
+                "The current WICE of IEEE FISAT SB COMSOC is Swetha Saju."
+            ]
+        },
+        {
+            "tag": "official_website_fisat_sb",
+            "patterns": [
+                "official FISAT SB? site for IEEE the What is",
+                "Where can I find the official website of IEEE FISAT SB?",
+                "FISAT SB? I can website How the access IEEE of official",
+                "What is the URL for the IEEE FISAT SB official website?",
+                "the tell website me Can FISAT you SB? for IEEE",
+                "Can you provide for the address FISAT IEEE website official SB?",
+                "the of official What is FISAT SB? website IEEE",
+                "FISAT official URL website? the for is the SB What IEEE",
+                "Where is the IEEE FISAT SB website located?",
+                "How can I access the official website of IEEE FISAT SB?",
+                "What is the official site for IEEE FISAT SB?",
+                "What\u2019s the web address for IEEE FISAT SB?",
+                "What is the official website of IEEE FISAT SB?",
+                "web page the SB? is for official What IEEE FISAT",
+                "SB located? IEEE FISAT is the Where website",
+                "What is the official web page for IEEE FISAT SB?",
+                "Can you tell me the website for IEEE FISAT SB?",
+                "What is the official IEEE FISAT SB website URL?",
+                "IEEE address SB? FISAT for What\u2019s web the",
+                "Can you provide the official website address for IEEE FISAT SB?",
+                "is the URL? official IEEE website SB FISAT What",
+                "IEEE website find I the SB? Where FISAT of can official"
+            ],
+            "responses": [
+                "The is official website IEEE https://www.ieee.fisat.ac.in/ SB of FISAT",
+                "The official website of IEEE FISAT SB is https://www.ieee.fisat.ac.in/"
+            ]
+        },
+        {
+            "tag": "location_fisat_sb",
+            "patterns": [
+                "IEEE FISAT situated? Where is SB the office",
+                "FISAT the headquarters Where located? IEEE is SB",
+                "location the the branch? What FISAT SB IEEE of is",
+                "is What FISAT IEEE venue SB? for the",
+                "Where is the IEEE FISAT SB headquarters located?",
+                "the SB? is location IEEE What FISAT of",
+                "find can Where SB? IEEE FISAT I",
+                "Where can I find IEEE FISAT SB?",
+                "FISAT address What IEEE SB? is for the",
+                "located? Where IEEE FISAT SB is",
+                "me where SB IEEE FISAT based? Can is you tell",
+                "What is the location of IEEE FISAT SB?",
+                "What is the venue for IEEE FISAT SB?",
+                "What is the physical location of IEEE FISAT SB?",
+                "Can you provide the address of IEEE FISAT SB?",
+                "SB? address the FISAT you IEEE of provide Can",
+                "What is the location of the IEEE FISAT SB branch?",
+                "Can you tell me where IEEE FISAT SB is based?",
+                "Where is the IEEE FISAT SB office situated?",
+                "Where is IEEE FISAT SB located?",
+                "IEEE What is of FISAT location SB? physical the",
+                "What is the address for IEEE FISAT SB?"
+            ],
+            "responses": [
+                "683577 Institute is IEEE SB FISAT Science at Technology, located Federal Angamaly and Hormis of Mookkannoor, Nagar,",
+                "IEEE FISAT SB is located at Federal Institute of Science and Technology, Hormis Nagar, Mookkannoor, Angamaly 683577"
+            ]
+        },
+        {
+            "tag": "email_fisat_sb",
+            "patterns": [
+                "Where can I find the official email ID of IEEE FISAT SB?",
+                "for is IEEE SB? the contact FISAT email What",
+                "Can you tell me the email address for IEEE FISAT SB?",
+                "email IEEE What SB? of the address is FISAT",
+                "What is the email ID used by IEEE FISAT SB?",
+                "can IEEE ID the SB? official find of I FISAT Where email",
+                "What is the official email address for IEEE FISAT SB?",
+                "What is the official email id of IEEE FISAT SB?",
+                "ID for FISAT IEEE provide email you the Can SB?",
+                "SB? you IEEE the email FISAT tell address Can me for",
+                "the official What FISAT address for is IEEE SB? email",
+                "FISAT SB id IEEE Email",
+                "via FISAT How email? can I IEEE SB reach",
+                "What is the email address of IEEE FISAT SB?",
+                "Email id IEEE FISAT SB",
+                "for email FISAT official What\u2019s SB? the IEEE contact",
+                "Can you provide the email ID for IEEE FISAT SB?",
+                "What\u2019s the official email contact for IEEE FISAT SB?",
+                "IEEE FISAT is the What SB? id email official of",
+                "What is the contact email for IEEE FISAT SB?",
+                "SB? FISAT the ID by used email is What IEEE",
+                "How can I reach IEEE FISAT SB via email?"
+            ],
+            "responses": [
+                "email FISAT IEEE ID official The is SB of fisatieeesb@gmail.com",
+                "The official email ID of IEEE FISAT SB is fisatieeesb@gmail.com"
+            ]
+        },
+        {
+            "tag": "contact_number_chair_fisat_sb",
+            "patterns": [
+                "How can I get in touch with the IEEE FISAT SB Chair by phone?",
+                "I can How the SB FISAT phone? reach IEEE Chair by",
+                "Can you provide the phone number of the IEEE FISAT SB Chair?",
+                "How can I reach the IEEE FISAT SB Chair by phone?",
+                "is IEEE What FISAT for contact Chair? SB the number the",
+                "What is the telephone contact for the IEEE FISAT SB Chair?",
+                "of is contact SB IEEE Chair? the FISAT What number",
+                "What\u2019s the contact phone number for the IEEE FISAT SB Chair?",
+                "how to contact chair",
+                "to chair how contact",
+                "SB the the IEEE What contact FISAT is Chair? for telephone",
+                "What is the contact number of IEEE FISAT SB Chair?",
+                "What\u2019s number IEEE Chair? for phone FISAT the SB the contact",
+                "Can you tell me the contact number for the IEEE FISAT SB Chair?",
+                "What is the contact number for the IEEE FISAT SB Chair?",
+                "Where can I find the phone number of the IEEE FISAT SB Chair?",
+                "number What contact SB the to IEEE Chair? phone FISAT the is",
+                "you of Chair? the number the SB provide IEEE FISAT phone Can",
+                "IEEE in touch with the SB phone? Chair can get I by FISAT How",
+                "Chair? for the me the you Can number SB contact IEEE FISAT tell",
+                "What is the phone number to contact the IEEE FISAT SB Chair?",
+                "the can the FISAT Where number IEEE of I phone find SB Chair?"
+            ],
+            "responses": [
+                "Bhavana R contact The FISAT Chair, IEEE of the Nair, number is SB 7994880936",
+                "The contact number of the IEEE FISAT SB Chair, Bhavana R Nair, is 7994880936"
+            ]
+        },
+        {
+            "tag": "what_is_impulse",
+            "patterns": [
+                "covered What relate and be they or advancements processing? themes how during specific Impulse 5.0, do in signal topics to will",
+                "and are take and in the where or guests event? Impulse who key 5.0 the involved speakers When place, will",
+                "5.0, are students and fees any can attend Impulse and participation? professionals register associated to there How with",
+                "What specific topics or themes will be covered during Impulse 5.0, and how do they relate to advancements in signal processing?",
+                "What is impulse 5.0?",
+                "Impulse event? participants two-day and What this activities is can expect 5.0, during what",
+                "When and where will Impulse 5.0 take place, and who are the key speakers or guests involved in the event?",
+                "How can students and professionals register to attend Impulse 5.0, and are there any fees associated with participation?",
+                "What opportunities for networking and collaboration will be available to attendees of Impulse 5.0, and how can participants benefit from these connections?",
+                "What 5.0? is impulse",
+                "What is Impulse 5.0, and what activities can participants expect during this two-day event?",
+                "What benefit be networking participants can Impulse will 5.0, from attendees and and these connections? opportunities of for how to collaboration available"
+            ],
+            "responses": [
+                "It is the two day flagship event of IEEE Fisat Sb in collaboration with IEEE Signal Processing Society Kerala Chapter.",
+                "event Signal Society Chapter. of the day two flagship in IEEE Sb collaboration It with Fisat Kerala Processing IEEE is"
+            ]
+        },
+        {
+            "tag": "impulse_events",
+            "patterns": [
+                "special or they? and Are activities for competitions there any what planned Impulse are 5.0,",
+                "What are the events conducted under impulse5.0",
+                "What workshops and interactive sessions will be featured under Impulse 5.0?",
+                "What specific topics or themes will be covered during Impulse 5.0, and how do they relate to advancements in signal processing?",
+                "during What topics do covered processing? and specific in advancements be how Impulse themes or 5.0, they signal relate will to",
+                "5.0? the you a Can during detailed of scheduled Impulse agenda provide events",
+                "What types of events are being conducted as part of Impulse 5.0?",
+                "workshops be 5.0? featured under interactive Impulse What sessions will and",
+                "Are there any special activities or competitions planned for Impulse 5.0, and what are they?",
+                "conducted part being 5.0? What of of types Impulse as are events",
+                "Can you provide a detailed agenda of the events scheduled during Impulse 5.0?",
+                "are events the impulse5.0 under What conducted"
+            ],
+            "responses": [
+                "and and activities, so Tech workshops, ice sessions, hunts talk treasure sessions, on. breaking nontech fun",
+                "Tech and nontech workshops, talk sessions, fun activities, ice breaking sessions, treasure hunts and so on."
+            ]
+        },
+        {
+            "tag": "impulse_leads",
+            "patterns": [
+                "of What leads event? the 5.0 organizing roles specific hold Impulse the in do",
+                "of key the on leads provide experience? Impulse Can some and you information their background 5.0",
+                "How is the leadership team structured for Impulse 5.0, and who are the individuals in charge?",
+                "behind main Impulse the leads are organizers and Who 5.0?",
+                "Who are the leads of impulse5.0?",
+                "structured who are leadership 5.0, is the charge? the Impulse and How for team individuals in",
+                "impulse5.0? leads are Who the of",
+                "What specific roles do the leads of Impulse 5.0 hold in organizing the event?",
+                "Can you provide some background information on the key leads of Impulse 5.0 and their experience?",
+                "Who are the main organizers and leads behind Impulse 5.0?"
+            ],
+            "responses": [
+                "Menon G S,Aaron M Shivani Krisnan,Afeefa Easo,Advaith",
+                "Shivani Krisnan,Afeefa M S,Aaron Easo,Advaith G Menon"
+            ]
+        },
+        {
+            "tag": "impulse_guest",
+            "patterns": [
+                "What is the significance of having the selected chief guest at Impulse 5.0?",
+                "Who will be the chief guest for Impulse 5.0?",
+                "Who is the chief guest of impulse 5.0?",
+                "role during play guest chief Impulse will the What 5.0?",
+                "be Impulse chief guest 5.0? the will Who for",
+                "of Impulse guest significance having selected the What the 5.0? is at chief",
+                "5.0? the chief impulse of Who guest is",
+                "What role will the chief guest play during Impulse 5.0?"
+            ],
+            "responses": [
+                "Dr. K R Suresh Nair : Founder and MD of Amara Raja Design Alpha",
+                "and MD Suresh R Amara Alpha Design Raja Nair of : Dr. K Founder"
+            ]
+        },
+        {
+            "tag": "contact_number_immediate_past_chair_fisat_sb",
+            "patterns": [
+                "What is the telephone contact for the IEEE FISAT SB immediate past chair?",
+                "IEEE chair? the FISAT the past immediate SB What telephone is for contact",
+                "immediate is number past chair? IEEE contact phone FISAT the What the SB to",
+                "immediate IEEE contact for chair? past phone What\u2019s number the FISAT the SB",
+                "hoow to contact immediate chair",
+                "What\u2019s the contact phone number for the IEEE FISAT SB immediate past chair?",
+                "What is the contact number for the IEEE FISAT SB immediate past chair?",
+                "Where can I find the phone number of the IEEE FISAT SB immediate past chair?",
+                "Can you provide the phone number of the IEEE FISAT SB immediate past chair?",
+                "hoow contact chair to immediate",
+                "tell the chair? number FISAT IEEE immediate SB the past you me contact Can for",
+                "phone? in I How can with IEEE the SB touch FISAT past chair by immediate get",
+                "immediate contact the past of chair? What SB IEEE is FISAT number",
+                "What is the contact number of IEEE FISAT SB immediate past chair?",
+                "How can I get in touch with the IEEE FISAT SB immediate past chair by phone?",
+                "What is the phone number to contact the IEEE FISAT SB immediate past chair?",
+                "Can you tell me the contact number for the IEEE FISAT SB immediate past chair?",
+                "can IEEE chair the reach past by SB How phone? I FISAT immediate",
+                "I the FISAT IEEE find number of immediate Where phone the SB past can chair?",
+                "How can I reach the IEEE FISAT SB immediate past chair by phone?",
+                "past FISAT the What chair? the contact IEEE immediate number is SB for",
+                "of IEEE Can phone number the SB provide immediate chair? you past the FISAT"
+            ],
+            "responses": [
+                "FISAT contact SB is the immediate past Samanuai chair, of 6238943968 A, number The IEEE",
+                "The contact number of the IEEE FISAT SB immediate past chair, Samanuai A, is 6238943968"
+            ]
+        },
+        {
+            "tag": "facebook_page_fisat_sb",
+            "patterns": [
+                "link the FISAT is SB? What Facebook IEEE for page official",
+                "What\u2019s the web address for the IEEE FISAT SB Facebook page?",
+                "FISAT SB? I do IEEE How the for page Facebook find",
+                "What is the Facebook URL for IEEE FISAT SB?",
+                "Can you provide the URL for the IEEE FISAT SB Facebook page?",
+                "What is the Facebook page link of IEEE FISAT SB?",
+                "What\u2019s the link to the IEEE FISAT SB Facebook page?",
+                "How can I access the IEEE FISAT SB Facebook page link?",
+                "IEEE link SB? FISAT the page What of is Facebook",
+                "What is the Facebook page link for IEEE FISAT SB?",
+                "the Where Facebook of FISAT can IEEE I find SB? page",
+                "What URL is FISAT the for Facebook SB? IEEE",
+                "What is the official Facebook page link for IEEE FISAT SB?",
+                "SB FISAT web address the for page? What\u2019s IEEE Facebook the",
+                "is IEEE page link SB? FISAT What for Facebook the",
+                "Can you tell me the link to the IEEE FISAT SB Facebook page?",
+                "provide for SB the IEEE Can the URL page? you Facebook FISAT",
+                "Where can I find the Facebook page of IEEE FISAT SB?",
+                "Facebook to FISAT What\u2019s the page? IEEE SB the link",
+                "How do I find the Facebook page for IEEE FISAT SB?",
+                "FISAT you the IEEE tell Facebook the link SB me to page? Can",
+                "access SB page link? How Facebook FISAT can I the IEEE"
+            ],
+            "responses": [
+                "The Facebook page link for IEEE FISAT SB is https://m.facebook.com/ieeefisat/",
+                "is for page link SB Facebook IEEE https://m.facebook.com/ieeefisat/ The FISAT"
+            ]
+        },
+        {
+            "tag": "instagram_page_fisat_sb",
+            "patterns": [
+                "How do I find the Instagram page for IEEE FISAT SB?",
+                "IEEE the FISAT the SB link Instagram to What\u2019s page?",
+                "What\u2019s the link to the IEEE FISAT SB Instagram page?",
+                "Where can I find the Instagram page of IEEE FISAT SB?",
+                "page How SB? the IEEE I for Instagram do FISAT find",
+                "link What for the official Instagram page SB? IEEE FISAT is",
+                "the What\u2019s address page? FISAT web for SB IEEE the Instagram",
+                "of the page find IEEE can Where FISAT I Instagram SB?",
+                "SB? page the for link Instagram is IEEE FISAT What",
+                "Can you tell me the link to the IEEE FISAT SB Instagram page?",
+                "What IEEE is FISAT the link SB? page of Instagram",
+                "How can I access the IEEE FISAT SB Instagram page link?",
+                "Can you provide the URL for the IEEE FISAT SB Instagram page?",
+                "is SB? FISAT for What URL Instagram IEEE the",
+                "tell SB to me you FISAT the IEEE page? link Can Instagram the",
+                "What is the Instagram URL for IEEE FISAT SB?",
+                "What is the Instagram page link for IEEE FISAT SB?",
+                "Instagram the provide FISAT URL you SB the Can page? for IEEE",
+                "What\u2019s the web address for the IEEE FISAT SB Instagram page?",
+                "IEEE SB I FISAT link? the How can access Instagram page",
+                "What is the Instagram page link of IEEE FISAT SB?",
+                "What is the official Instagram page link for IEEE FISAT SB?"
+            ],
+            "responses": [
+                "for is FISAT IEEE SB The Instagram link page https://www.instagram.com/ieeefisatsb/?igshid=MzRlODBiNWFlZA%3D%3D",
+                "The Instagram page link for IEEE FISAT SB is https://www.instagram.com/ieeefisatsb/?igshid=MzRlODBiNWFlZA%3D%3D"
+            ]
+        },
+        {
+            "tag": "youtube_channel_fisat_sb",
+            "patterns": [
+                "Where can I find the YouTube channel of IEEE FISAT SB?",
+                "access SB the IEEE can channel I FISAT How link? YouTube",
+                "Can you provide the URL for the IEEE FISAT SB YouTube channel?",
+                "the IEEE What\u2019s web the address FISAT YouTube channel? for SB",
+                "What is the YouTube URL for IEEE FISAT SB?",
+                "Can you tell me the link to the IEEE FISAT SB YouTube channel?",
+                "the you channel? IEEE for YouTube SB provide the FISAT Can URL",
+                "What\u2019s the link to the IEEE FISAT SB YouTube channel?",
+                "YouTube Where I FISAT the can channel IEEE find of SB?",
+                "What is the YouTube Channel link of IEEE FISAT SB?",
+                "How can I access the IEEE FISAT SB YouTube channel link?",
+                "for What URL the SB? IEEE FISAT is YouTube",
+                "SB? of is the IEEE What YouTube Channel link FISAT",
+                "for channel FISAT the What is link official IEEE YouTube SB?",
+                "the channel? to SB IEEE the What\u2019s link FISAT YouTube",
+                "me the the Can YouTube FISAT to you SB tell channel? link IEEE",
+                "What\u2019s the web address for the IEEE FISAT SB YouTube channel?",
+                "What is the official YouTube channel link for IEEE FISAT SB?",
+                "YouTube SB? IEEE do I FISAT find How channel the for",
+                "How do I find the YouTube channel for IEEE FISAT SB?",
+                "What is the YouTube channel link for IEEE FISAT SB?",
+                "the link channel What IEEE YouTube FISAT SB? for is"
+            ],
+            "responses": [
+                "The YouTube channel link for IEEE FISAT SB is https://www.youtube.com/@ieeefisatsb1414",
+                "for https://www.youtube.com/@ieeefisatsb1414 SB link The channel is YouTube FISAT IEEE"
+            ]
+        },
+        {
+            "tag": "linkedin_page_fisat_sb",
+            "patterns": [
+                "for IEEE LinkedIn the SB? link is What FISAT",
+                "Can you provide the URL for the IEEE FISAT SB LinkedIn page?",
+                "What\u2019s the web address for the IEEE FISAT SB LinkedIn profile?",
+                "How do I find the LinkedIn page for IEEE FISAT SB?",
+                "the IEEE SB? find can page FISAT of Where I LinkedIn",
+                "What is the LinkedIn link for IEEE FISAT SB?",
+                "What\u2019s the link to the IEEE FISAT SB LinkedIn profile?",
+                "What is the official LinkedIn link for IEEE FISAT SB?",
+                "IEEE FISAT is What of SB? the link LinkedIn",
+                "IEEE SB the link What\u2019s LinkedIn the to profile? FISAT",
+                "Can you tell me the link to the IEEE FISAT SB LinkedIn page?",
+                "the for LinkedIn find FISAT do SB? page IEEE How I",
+                "Where can I find the LinkedIn page of IEEE FISAT SB?",
+                "How can I access the IEEE FISAT SB LinkedIn page link?",
+                "is the official FISAT link IEEE SB? for LinkedIn What",
+                "What is the LinkedIn URL for IEEE FISAT SB?",
+                "can How access SB the IEEE I link? page FISAT LinkedIn",
+                "What is the LinkedIn link of IEEE FISAT SB?",
+                "me the you FISAT tell SB Can IEEE the to LinkedIn link page?",
+                "URL the FISAT you provide the page? IEEE Can LinkedIn for SB",
+                "LinkedIn IEEE is for What the SB? FISAT URL",
+                "IEEE the for address the profile? LinkedIn web SB FISAT What\u2019s"
+            ],
+            "responses": [
+                "IEEE LinkedIn SB is link https://www.linkedin.com/company/ieee-fisat-sb/ The FISAT for",
+                "The LinkedIn link for IEEE FISAT SB is https://www.linkedin.com/company/ieee-fisat-sb/"
+            ]
+        },
+        {
+            "tag": "email_branch_counselor_fisat_sb",
+            "patterns": [
+                "you the Can IEEE the email address provide FISAT SB branch counselor? of",
+                "the for email contact branch IEEE counselor? SB What is the FISAT",
+                "Can you provide the email address of the IEEE FISAT SB branch counselor?",
+                "counselor IEEE the branch by can I How email? reach FISAT SB",
+                "the branch counselor? the for SB contact FISAT email What\u2019s IEEE",
+                "ID SB the email the IEEE direct branch FISAT counselor? What\u2019s for",
+                "What\u2019s the direct email ID for the IEEE FISAT SB branch counselor?",
+                "How can I reach the IEEE FISAT SB branch counselor by email?",
+                "What\u2019s the contact email for the IEEE FISAT SB branch counselor?",
+                "email address the What the of FISAT SB is official counselor? branch IEEE",
+                "of is SB branch email What counselor? id IEEE the FISAT",
+                "What is the email ID for the IEEE FISAT SB branch counselor?",
+                "Can you tell me the email address of the IEEE FISAT SB branch counselor?",
+                "ID counselor? IEEE find branch email Where the FISAT can the SB I of",
+                "email SB branch FISAT IEEE counselor? the me the of address Can tell you",
+                "What is the official email address of the IEEE FISAT SB branch counselor?",
+                "What is the email contact for the IEEE FISAT SB branch counselor?",
+                "How do I contact the IEEE FISAT SB branch counselor via email?",
+                "What is the email id of IEEE FISAT SB branch counselor?",
+                "IEEE the ID for SB branch email What the FISAT is counselor?",
+                "contact do FISAT email? via IEEE counselor branch the How SB I",
+                "Where can I find the email ID of the IEEE FISAT SB branch counselor?"
+            ],
+            "responses": [
+                "The email ID of the IEEE FISAT SB branch counselor, Basil K Jeemon, is basilkjeemon@fisat.ac.in",
+                "SB of FISAT the counselor, K email IEEE ID is The Jeemon, basilkjeemon@fisat.ac.in Basil branch"
+            ]
+        },
+        {
+            "tag": "contact_number_membership_development_chair_fisat_sb",
+            "patterns": [
+                "How can I reach the Membership Development Chair of IEEE FISAT SB by phone?",
+                "How can I get in touch with the Membership Development Chair of IEEE FISAT SB by phone?",
+                "Who Development Membership is Chair",
+                "reach phone? Chair Membership FISAT the SB of can Development How by I IEEE",
+                "What is the phone number to contact the Membership Development Chair of IEEE FISAT SB?",
+                "Who is Membership Development Chair",
+                "of for FISAT phone Membership the SB? IEEE Development number the contact What\u2019s Chair",
+                "Chair Who is MD",
+                "of What Chair for Membership SB? the Development the number contact IEEE FISAT is",
+                "number Chair Development of I of find the phone SB? FISAT can IEEE Membership the Where",
+                "What\u2019s the contact phone number for the Membership Development Chair of IEEE FISAT SB?",
+                "of the Can SB? Development provide the IEEE Membership phone Chair of you number FISAT",
+                "contact number of the of Development FISAT is the Chair IEEE What SB? Membership",
+                "What is the contact number for the Membership Development Chair of IEEE FISAT SB?",
+                "Can you provide the phone number of the Membership Development Chair of IEEE FISAT SB?",
+                "Where can I find the phone number of the Membership Development Chair of IEEE FISAT SB?",
+                "What is the telephone contact for the Membership Development Chair of IEEE FISAT SB?",
+                "IEEE of the Membership FISAT get in How can Development I by SB touch phone? Chair with",
+                "SB? the contact number What is of phone Chair Development FISAT to the IEEE Membership",
+                "number FISAT Can Development you the for Membership IEEE tell me contact SB? the Chair of",
+                "Can you tell me the contact number for the Membership Development Chair of IEEE FISAT SB?",
+                "Who is MD Chair",
+                "contact for the IEEE is Development of What Chair FISAT Membership SB? the telephone",
+                "What is the contact number of the Membership Development Chair of IEEE FISAT SB?"
+            ],
+            "responses": [
+                "The contact number of the Membership Development Chair of IEEE FISAT SB, Wilson Nevin, is 8590974196",
+                "Membership Wilson of contact FISAT Nevin, of is IEEE 8590974196 Development Chair The the SB, number"
+            ]
+        },
+        {
+            "tag": "ieee_purpose",
+            "patterns": [
+                "What is the purpose of IEEE?",
+                "Why does IEEE exist?",
+                "What is the mission of IEEE?",
+                "What are IEEE's main objectives?",
+                "Why was IEEE formed?"
+            ],
+            "responses": [
+                "IEEE's purpose is to foster technological innovation and excellence for the benefit of humanity.",
+                "The mission of IEEE is to advance technology for the betterment of humanity."
+            ]
+        },
+        {
+            "tag": "ieee_membership",
+            "patterns": [
+                "How do I become a member of IEEE?",
+                "What are the benefits of IEEE membership?",
+                "How can I join IEEE?",
+                "What does IEEE membership offer?",
+                "Can anyone join IEEE?"
+            ],
+            "responses": [
+                "You can become a member of IEEE by applying online through the official website. Benefits include access to cutting-edge research, professional networking, and discounts on conferences and publications.",
+                "Joining IEEE offers benefits like access to exclusive resources, professional development opportunities, and a global community of engineers and technologists."
+            ]
+        },
+        {
+            "tag": "fisat_courses",
+            "patterns": [
+                "What courses are offered at FISAT?",
+                "Can you tell me about the programs at FISAT College?",
+                "What degrees can I pursue at FISAT?",
+                "What educational programs are available at FISAT?",
+                "Does FISAT offer engineering courses?"
+            ],
+            "responses": [
+                "FISAT offers a range of undergraduate and postgraduate programs including Engineering, MBA, MCA, and PhD programs in various disciplines.",
+                "At FISAT, you can pursue degrees in fields such as Computer Science, Electronics, Electrical Engineering, Mechanical Engineering, Civil Engineering, and more."
+            ]
+        },
+        {
+            "tag": "fisat_facilities",
+            "patterns": [
+                "What facilities does FISAT provide?",
+                "Can you tell me about the infrastructure at FISAT?",
+                "What amenities are available at FISAT College?",
+                "Does FISAT have good lab facilities?",
+                "What resources are available for students at FISAT?"
+            ],
+            "responses": [
+                "FISAT offers state-of-the-art facilities including modern laboratories, a well-stocked library, hostels, sports facilities, and more.",
+                "Students at FISAT have access to advanced lab facilities, a comprehensive library, and numerous extracurricular resources."
+            ]
+        },
+        {
+            "tag": "ieee_fisat_sb_events",
+            "patterns": [
+                "What events are organized by IEEE FISAT SB?",
+                "Does IEEE FISAT SB host any conferences?",
+                "What activities does IEEE FISAT SB conduct?",
+                "Can you tell me about the events at IEEE FISAT SB?",
+                "What types of events does IEEE FISAT SB organize?"
+            ],
+            "responses": [
+                "IEEE FISAT SB organizes various events including technical talks, workshops, conferences, and hackathons to foster innovation and learning.",
+                "The IEEE FISAT SB regularly hosts events such as seminars, competitions, and training sessions to engage and educate its members."
+            ]
+        }
+    ]
+}
