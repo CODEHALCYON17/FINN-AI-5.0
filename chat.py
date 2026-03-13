@@ -1,5 +1,6 @@
 import random
 import json
+import os
 import torch
 import google.generativeai as genai
 from model import NeuralNet
@@ -26,7 +27,10 @@ model.load_state_dict(model_state)
 model.eval()
 
 # Set up Gemini API
-genai.configure(api_key="AIzaSyCAGYFXgAB9dO5OD9RYJfRjr3Nke_kFdvg")
+_gemini_api_key = os.environ.get("GEMINI_API_KEY")
+if not _gemini_api_key:
+    raise EnvironmentError("GEMINI_API_KEY environment variable is not set. See .env.example for setup instructions.")
+genai.configure(api_key=_gemini_api_key)
 gemini_model = genai.GenerativeModel(model_name="gemini-1.5-pro-latest")
 
 bot_name = "Babu"
