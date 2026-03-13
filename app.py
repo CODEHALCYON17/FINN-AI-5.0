@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS
 import torch
 import json
+import os
 import google.generativeai as genai
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
@@ -32,7 +33,10 @@ model.load_state_dict(model_state)
 model.eval()
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyCAGYFXgAB9dO5OD9RYJfRjr3Nke_kFdvg")
+_gemini_api_key = os.environ.get("GEMINI_API_KEY")
+if not _gemini_api_key:
+    raise EnvironmentError("GEMINI_API_KEY environment variable is not set. See .env.example for setup instructions.")
+genai.configure(api_key=_gemini_api_key)
 gemini_model = genai.GenerativeModel("gemini-1.5-pro")
 
 def get_current_date():

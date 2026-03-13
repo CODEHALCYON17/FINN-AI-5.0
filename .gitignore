@@ -1,0 +1,13 @@
+# Environment / secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model weights / training artifacts
+*.pth
+
+# IDE settings
+.vscode/
